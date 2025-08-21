@@ -5,27 +5,57 @@
         <title>Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
+		<title>Automation Platform - 로그인</title>
+		<link href="https://fonts.googleapis.com" rel="preconnect"/>
+		<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+		<style type="text/tailwindcss">
+        :root {
+            --brand-color: #0d78f2;
+            --background-color: #f8fafc;
+            --foreground-color: #ffffff;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+            --input-background: #f3f4f6;
+            --input-border: #d1d5db;
+            --input-focus-border: #0d78f2;
+        }
+        body {
+            font-family: 'Manrope', 'Noto Sans KR', sans-serif;
+        }
+    </style>
 
-        {{themecss}} {{appicons}} {{manifest}} {{startupimages}}
     </head>
 
-    <body>
-        <div class="loginpage">
-            <div class="loginpage-left">
-                <div class="loginpage-image"></div>
-            </div>
-            <div class="loginpage-right">
-                <div class="loginpage-formwrapper">
-                    <h2 id="loginHeader">Sign in</h2>
-                    <form id="loginForm" class="loginpage-form" autocomplete="off">
-                        <div>
+    <body class="bg-[var(--background-color)]">
+	<div class="flex flex-col min-h-screen">
+	<header class="w-full">
+	<div class="container mx-auto px-6 py-4 flex items-center justify-between">
+	<div class="flex items-center gap-3">
+	<svg class="h-8 w-8 text-[var(--brand-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+	<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+	</svg>
+	<h1 class="text-2xl font-bold text-[var(--text-primary)] tracking-tighter">Automation Platform</h1>
+	</div>
+	</div>
+	</header>
+	<main class="flex-grow flex items-center justify-center">
+	<div class="w-full max-w-md p-8 space-y-8 bg-[var(--foreground-color)] rounded-2xl shadow-lg">
+	<div class="text-center">
+	<h2 class="text-3xl font-extrabold text-[var(--text-primary)]">로그인</h2>
+	<p class="mt-2 text-sm text-[var(--text-secondary)]">자동화 플랫폼 포털에 오신 것을 환영합니다.</p>
+	</div>
+                    <form id="loginForm" class="mt-8 space-y-6" autocomplete="off">
+                        <div class="rounded-md shadow-sm -space-y-px">
                             <div id="loginMessage" class="alert alert-danger"></div>
-                            <div class="form-group">
-                                <label class="control-label" id="usernameLabel" for="usernameInput">User name</label>
+							<div>
+							<label class="sr-only" id="usernameLabel" for="usernameInput">User name</label>							
+                            <div class="form-group">								
                                 <div class="inputwrapper">
                                     <input
                                         id="usernameInput"
-                                        class="form-control"
+                                        class="appearance-none rounded-none relative block w-full px-4 py-3 border border-[var(--input-border)] bg-[var(--input-background)] placeholder-gray-500 text-[var(--text-primary)] rounded-t-lg focus:outline-none focus:ring-[var(--input-focus-border)] focus:border-[var(--input-focus-border)] focus:z-10 sm:text-sm"
                                         type="text"
                                         placeholder="User name"
                                         autocorrect="off"
@@ -35,12 +65,12 @@
                                     <span class="glyphicon glyphicon-user"></span>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label class="control-label" id="passwordLabel" for="passwordInput">Password</label>
+                            <div>
+                                <label class="sr-only" id="passwordLabel" for="passwordInput">Password</label>
                                 <div class="inputwrapper">
                                     <input
                                         id="passwordInput"
-                                        class="form-control"
+                                        class="appearance-none rounded-none relative block w-full px-4 py-3 border border-[var(--input-border)] bg-[var(--input-background)] placeholder-gray-500 text-[var(--text-primary)] rounded-b-lg focus:outline-none focus:ring-[var(--input-focus-border)] focus:border-[var(--input-focus-border)] focus:z-10 sm:text-sm"
                                         type="password"
                                         placeholder="Password"
                                         autocorrect="off"
@@ -50,14 +80,21 @@
                                     <span class="glyphicon glyphicon-eye-close" id="passwordToggle"></span>
                                 </div>
                             </div>
-                            <button id="loginButton" type="submit" class="btn btn-success btn-lg">Sign in</button>
-                        </div>
+							</div>
+						</div>
+							<div>
+                            <button id="loginButton" type="submit" class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-bold rounded-lg text-white bg-[var(--brand-color)] hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">로그인</button>
+                           </div>
+							<div class="text-center text-sm">
+							<p class="text-[var(--text-secondary)]">
+														계정이 없으신가요?
+							<a class="font-medium text-[var(--brand-color)] hover:text-blue-700" href="#">회원가입</a>
+							</p>
+							</div>						   
                     </form>
-                </div>
+                
             </div>
-            <div class="loginpage-logo">
-                <img src="logo.png" role="presentation" height="45" alt="" />
-            </div>
+           </main>
         </div>
 
         <script src="js/login_i18n.js?{{cachebust}}"></script>
