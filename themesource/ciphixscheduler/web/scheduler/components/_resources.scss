@@ -1,0 +1,43 @@
+@mixin resources {
+  .b-scheduler-resource {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  // change color of nested resources arrow
+  i.b-tree-expander,
+  i.b-icon-tree-leaf {
+    color: #3f3f3f;
+  }
+
+  i.b-tree-expander {
+    // add a dot before resources without a parent
+    &.b-empty-parent {
+      visibility: visible;
+
+      &:before {
+        content: "";
+        background-color: #3f3f3f;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+      }
+    }
+
+    &:before {
+      font-size: 1.1em;
+    }
+  }
+
+  body.b-theme-classic-dark {
+    i.b-tree-expander,
+    i.b-icon-tree-leaf {
+      color: #bcbcbc;
+    }
+
+    i.b-tree-expander.b-empty-parent:before {
+      background-color: #bcbcbc;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@mixin scheduler {
+  .ciphix-scheduler {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .b-react-portal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .b-calculation-progress-wrap {
+    top: 0;
+    height: 10px !important;
+  }
+
+  .b-schedulerpro {
+    width: 100%;
+  }
+
+  // reset bootstrap styles
+  :where(.ciphix-scheduler) label {
+    display: unset;
+    max-width: unset;
+    margin-bottom: unset;
+    font-weight: unset;
+  }
+}

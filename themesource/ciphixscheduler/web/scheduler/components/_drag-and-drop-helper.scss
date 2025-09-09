@@ -1,0 +1,13 @@
+@mixin drag-and-drop-helper {
+  .b-drag-from-outside.b-sch-event-wrap {
+    display: flex;
+  }
+
+  .ciphix-scheduler-drag-helper:not(.b-dragging-disabled) {
+    cursor: grab;
+  }
+
+  .b-dragging {
+    opacity: 0.5;
+  }
+}

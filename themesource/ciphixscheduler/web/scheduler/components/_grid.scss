@@ -1,0 +1,44 @@
+$filter-width: 300px;
+
+@mixin grid {
+  // No on click actions are defined on the headers
+  .b-grid-header {
+    cursor: default;
+  }
+
+  // adjust resource hover color
+  .b-gridbase:not(.b-moving-splitter) .b-grid-subgrid:not(.b-timeaxissubgrid) .b-grid-row:not(.b-group-row).b-hover .b-grid-cell {
+    background-color: transparent;
+  }
+
+  .b-scheduler-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+
+    .b-react-scheduler-container {
+      flex: 1 1 0;
+      overflow: hidden;
+    }
+
+    .b-filters-wrapper {
+      min-width: $filter-width;
+    }
+  }
+
+  .ciphix-scheduler.b-filter-panel-open {
+    .b-scheduler-wrapper.b-auto-height {
+      .b-schedulerpro {
+        width: calc(100% - $filter-width);
+        max-width: calc(100% - $filter-width);
+      }
+
+      .b-filters-wrapper {
+        min-width: $filter-width;
+        max-width: $filter-width;
+      }
+    }
+  }
+}

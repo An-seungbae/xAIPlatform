@@ -1,0 +1,15 @@
+@mixin scheduler-filtering {
+  .b-schedulerpro {
+    &.b-highlighting {
+      .b-sch-event-wrap {
+        .b-sch-event {
+          opacity: 0.2;
+
+          &.b-match {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

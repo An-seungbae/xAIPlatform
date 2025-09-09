@@ -1,0 +1,11 @@
+@mixin tooltips() {
+    // hide the close bar on top of tooltips
+    .b-tooltip > .b-popup-header {
+        display: none;
+    }
+
+    // Force a scrollbar when the content is too great for the available space of the tooltip
+    .b-sch-event-tooltip .b-panel-content {
+        overflow: auto
+    }
+}

@@ -2952,6 +2952,2298 @@
   content: "\ea6d";
 }
 
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.scheduling-date-container {
+  position: relative;
+}
+.scheduling-date-text {
+  padding-left: 50px;
+  padding-right: 25px;
+  color: #0a1426;
+}
+.scheduling-date-selector {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: calc(100% + 25px);
+}
+.scheduling-date-selector input.form-control {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: calc((100% - 267px) / 2);
+  width: 1px;
+  min-width: 1px;
+  opacity: 0;
+}
+.scheduling-date-selector .btn {
+  color: #0a1426;
+  position: absolute;
+  background-color: transparent;
+  border-width: 0;
+  font-size: 20px;
+  padding: 3px 0 0 10px;
+  width: calc(100% - 25px);
+  text-align: left;
+}
+.scheduling-date-button {
+  color: #0a1426;
+  font-size: 19px;
+  line-height: 32px;
+}
+.scheduling-date-button:hover {
+  color: #0a1426;
+}
+.scheduling-edit-button {
+  color: #0a1426;
+  border-width: 0;
+  font-size: 20px;
+  padding: 0px 0 0 5px;
+}
+.scheduling-edit-button img {
+  height: 22px;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+.scheduling-groupbox .mx-groupbox-header {
+  font-size: 22px;
+}
+.scheduling-groupbox .mx-groupbox-body {
+  padding: 0;
+}
+.scheduling-period-container {
+  width: 50%;
+}
+.scheduling-period-label {
+  color: #0a1426;
+}
+.scheduling-period-selector .form-control {
+  padding: 5px 10px;
+  min-width: 120px;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
 /* ==========================================================================
   Take picture styles
 ========================================================================== */
@@ -3121,6 +5413,208 @@
   -webkit-overflow-scrolling: auto;
 }
 
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
 :root {
   /*
    DISCLAIMER:
@@ -3163,12 +5657,12 @@
   --border-color-default: #ced0d3;
   --border-radius-default: 4px;
   /* Topbar */
-  --topbar-bg: #020557;
+  --topbar-bg: #b6def8;
   --topbar-minimalheight: 48px;
   --topbar-border-color: #ced0d3;
   /* Topbar mobile */
   --m-header-height: 45px;
-  --m-header-bg: #020557;
+  --m-header-bg: #b6def8;
   --m-header-color: #fff;
   --m-header-title-size: 16px;
   /* Navbar Brand Name / For your company, product, or project name (used in layouts/base/) */
@@ -3252,15 +5746,15 @@
   --navtopbar-font-size: 14px;
   --navtopbar-sub-font-size: 12px;
   --navtopbar-glyph-size: 1.2em;
-  --navtopbar-bg: #020557;
-  --navtopbar-bg-hover: #282b70;
-  --navtopbar-bg-active: #282b70;
+  --navtopbar-bg: #b6def8;
+  --navtopbar-bg-hover: #c1e3f9;
+  --navtopbar-bg-active: #c1e3f9;
   --navtopbar-color: #fff;
   --navtopbar-color-hover: #fff;
   --navtopbar-color-active: #fff;
-  --navtopbar-sub-bg: #020557;
-  --navtopbar-sub-bg-hover: #282b70;
-  --navtopbar-sub-bg-active: #282b70;
+  --navtopbar-sub-bg: #b6def8;
+  --navtopbar-sub-bg-hover: #c1e3f9;
+  --navtopbar-sub-bg-active: #c1e3f9;
   --navtopbar-sub-color: #fff;
   --navtopbar-sub-color-hover: #fff;
   --navtopbar-sub-color-active: #fff;
@@ -3650,7 +6144,7 @@
   --brand-info: #0086d9;
   /*== Step 2: UI Customization */
   /* Sidebar */
-  --sidebar-bg: #24276c;
+  --sidebar-bg: #b6def8;
   /*== Navigation */
   /*## Used in components/navigation */
   /* Default Navigation styling */
@@ -3662,13 +6156,13 @@
   --navigation-sub-bg-active: #1f215d;
   --navigation-border-color: #292d7b;
   /* Navigation Sidebar */
-  --navsidebar-bg: #24276c;
-  --navsidebar-bg-hover: #171946;
-  --navsidebar-bg-active: #171946;
-  --navsidebar-sub-bg: #171946;
-  --navsidebar-sub-bg-hover: #24276c;
-  --navsidebar-sub-bg-active: #24276c;
-  --navsidebar-border-color: #171946;
+  --navsidebar-bg: #b6def8;
+  --navsidebar-bg-hover: #87c9f4;
+  --navsidebar-bg-active: #87c9f4;
+  --navsidebar-sub-bg: #87c9f4;
+  --navsidebar-sub-bg-hover: #b6def8;
+  --navsidebar-sub-bg-active: #b6def8;
+  --navsidebar-border-color: #87c9f4;
   /*== Form */
   /*## Used in components/inputs */
   /* Form Label */
@@ -18986,7 +21480,7 @@ input[type=checkbox] + .control-label {
   padding: 0;
   text-align: initial;
   color: #fff;
-  background-color: #020557;
+  background-color: #b6def8;
   box-shadow: 0px 2px 2px rgba(194, 196, 201, 0.30354);
 }
 .mx-header div.mx-header-left,
@@ -19924,7 +22418,7 @@ img.img-scale-down,
 //## Behavior in the different regions
 ========================================================================== */
 .region-topbar .mx-navbar {
-  background-color: #020557;
+  background-color: #b6def8;
   min-height: auto;
 }
 .region-topbar .mx-navbar ul.nav {
@@ -19947,7 +22441,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active .caret {
   border-top-color: #fff;
@@ -19955,7 +22449,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu::before {
   border-color: transparent transparent #ced0d3 transparent;
@@ -19967,7 +22461,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus .caret {
   border-top-color: #fff;
@@ -19975,7 +22469,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu {
   border-radius: 4px;
-  background-color: #020557;
+  background-color: #b6def8;
   padding: 8px 8px 0;
   margin: 0;
   border: 0;
@@ -19991,11 +22485,11 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:focus {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
   border-top-color: #fff;
@@ -20003,7 +22497,7 @@ img.img-scale-down,
 }
 @media (max-width: 768px) {
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu {
-    background-color: #020557;
+    background-color: #b6def8;
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a {
     color: #fff;
@@ -20011,16 +22505,16 @@ img.img-scale-down,
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: #fff;
-    background-color: #282b70;
+    background-color: #c1e3f9;
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
     color: #fff;
-    background-color: #282b70;
+    background-color: #c1e3f9;
   }
 }
 
 .region-sidebar .mx-navbar {
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 .region-sidebar .mx-navbar ul.nav {
   /* Navigation item */
@@ -20038,7 +22532,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:hover .caret, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:focus .caret, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active .caret {
   border-top-color: #fff;
@@ -20046,10 +22540,10 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu::before {
-  border-color: transparent transparent #171946 transparent;
+  border-color: transparent transparent #87c9f4 transparent;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .glyphicon,
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-icon-lined,
@@ -20058,7 +22552,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:hover, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:focus, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.active a, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:hover .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:focus .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.active a .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus .caret {
   border-top-color: #fff;
@@ -20066,7 +22560,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   color: #fff;
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
   border-top-color: #fff;
@@ -20074,7 +22568,7 @@ img.img-scale-down,
 }
 @media (max-width: 768px) {
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu {
-    background-color: #020557;
+    background-color: #b6def8;
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a {
     color: #fff;
@@ -20082,11 +22576,11 @@ img.img-scale-down,
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: #fff;
-    background-color: #24276c;
+    background-color: #b6def8;
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
     color: #fff;
-    background-color: #24276c;
+    background-color: #b6def8;
   }
 }
 
@@ -20236,13 +22730,13 @@ img.img-scale-down,
 //## Behavior in the different regions
 ========================================================================== */
 .region-topbar .mx-navigationtree {
-  background-color: #020557;
+  background-color: #b6def8;
   /* Sub navigation item specific */
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li > a {
   color: #fff;
   border-color: #ced0d3;
-  background-color: #020557;
+  background-color: #b6def8;
   font-size: 14px;
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li > a .caret {
@@ -20258,7 +22752,7 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:hover .caret,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus .caret,
@@ -20269,33 +22763,33 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
   border-left-color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul {
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
   color: #fff;
-  background-color: #020557;
+  background-color: #b6def8;
   font-size: 12px;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 
 .region-sidebar .mx-navigationtree {
-  background-color: #24276c;
+  background-color: #b6def8;
   /* Sub navigation item specific */
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a {
   color: #fff;
-  border-color: #171946;
-  background-color: #24276c;
+  border-color: #87c9f4;
+  background-color: #b6def8;
   font-size: 14px;
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .caret {
@@ -20311,7 +22805,7 @@ img.img-scale-down,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:focus,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:hover .caret,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:focus .caret,
@@ -20322,23 +22816,23 @@ img.img-scale-down,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
   border-left-color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul {
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
   font-size: 12px;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 
 .nav-content-center-text-icons.mx-navigationtree .navbar-inner ul a {
@@ -20565,7 +23059,7 @@ ul.popupmenu-menu {
 }
 
 .region-topbar .mx-menubar {
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   color: #fff;
@@ -20579,14 +23073,14 @@ ul.popupmenu-menu {
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:focus, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #282b70;
+  background-color: #c1e3f9;
 }
 .region-topbar .mx-menubar-vertical {
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .region-topbar .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
   height: unset;
@@ -20594,7 +23088,7 @@ ul.popupmenu-menu {
 }
 
 .region-sidebar .mx-menubar {
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   color: #fff;
@@ -20608,17 +23102,17 @@ ul.popupmenu-menu {
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:focus, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #171946;
+  background-color: #87c9f4;
 }
 .region-sidebar .mx-menubar-vertical {
-  background-color: #24276c;
+  background-color: #b6def8;
 }
 .region-sidebar .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
-  border-color: #171946;
+  border-color: #87c9f4;
 }
 
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
@@ -20746,132 +23240,59 @@ input[type=radio] + label {
   margin-left: 8px;
 }
 
-.mx-page {
-  display: flex;
-  flex-direction: column;
-}
+/* ==========================================================================
+   Scroll Container
 
-.mx-scrollcontainer {
-  flex-shrink: 0;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.mx-scrollcontainer:not(.mx-scrollcontainer-fixed) {
-  min-height: auto;
-}
-.mx-scrollcontainer.mx-scrollcontainer-fixed {
-  max-height: 100%;
-  min-height: 100%;
-}
-
-.mx-scrollcontainer-horizontal {
-  display: flex;
-  flex-direction: row;
-}
-
-.mx-scrollcontainer-vertical {
-  display: flex;
-  flex-direction: column;
-}
-
-.mx-scrollcontainer-fixed .mx-scrollcontainer-left,
-.mx-scrollcontainer-fixed .mx-scrollcontainer-right,
-.mx-scrollcontainer-fixed .mx-scrollcontainer-center,
-.mx-scrollcontainer-fixed .mx-scrollcontainer-middle {
-  overflow: auto;
-}
-
-.mx-scrollcontainer-left,
-.mx-scrollcontainer-right,
-.mx-scrollcontainer-top,
-.mx-scrollcontainer-bottom {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.mx-scrollcontainer-middle,
-.mx-scrollcontainer-center {
-  flex-grow: 1;
-}
-
-.mx-scrollcontainer-nested {
-  height: 100%;
-  padding: 0;
-}
-
-.mx-scrollcontainer-right:not(.mx-scrollcontainer-toggleable),
-.mx-scrollcontainer-left:not(.mx-scrollcontainer-toggleable),
-.mx-scrollcontainer-top:not(.mx-scrollcontainer-toggleable),
-.mx-scrollcontainer-bottom:not(.mx-scrollcontainer-toggleable) {
-  flex-basis: var(--sidebar-size);
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.mx-scrollcontainer-left.mx-scrollcontainer-toggleable,
-.mx-scrollcontainer-right.mx-scrollcontainer-toggleable {
-  transition: flex-basis 250ms ease-in, margin-right 250ms ease-in, margin-left 250ms ease-in;
-  z-index: 1;
-}
-
-.mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable,
-.mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable,
-.mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable {
-  flex-basis: var(--closed-sidebar-width, 0px);
-  overflow: hidden;
-}
-
-.mx-scrollcontainer-shrink.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable,
-.mx-scrollcontainer-push.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable,
-.mx-scrollcontainer-slide.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable {
-  flex-basis: var(--sidebar-size);
-}
-
-.mx-scrollcontainer-slide.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable.mx-scrollcontainer-left,
-.mx-scrollcontainer-push.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable.mx-scrollcontainer-left {
-  margin-right: calc(var(--closed-sidebar-width, 0px) - var(--sidebar-size));
-}
-
-.mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable.mx-scrollcontainer-left,
-.mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable.mx-scrollcontainer-left {
-  margin-right: 0;
-}
-
-.mx-scrollcontainer-slide.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable.mx-scrollcontainer-right,
-.mx-scrollcontainer-push.mx-scrollcontainer-open > .mx-scrollcontainer-toggleable.mx-scrollcontainer-right {
-  margin-left: calc(var(--closed-sidebar-width, 0px) - var(--sidebar-size));
-}
-
-.mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable.mx-scrollcontainer-right,
-.mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .mx-scrollcontainer-toggleable.mx-scrollcontainer-right {
-  margin-left: 0;
-}
-
-.mx-scrollcontainer-push > :not(.mx-scrollcontainer-toggleable) {
-  transition: transform 250ms ease-in;
-}
-
-.mx-scrollcontainer-push.mx-scrollcontainer-open > :not(.mx-scrollcontainer-toggleable) {
-  transform: translateX(var(--toggleable-sidebar-width)) translateX(calc(0px - var(--closed-sidebar-width, 0px)));
-}
-
-.mx-scrollcontainer-push.mx-scrollcontainer-open.has-right-sidebar-toggle > :not(.mx-scrollcontainer-toggleable),
-.mx-scrollcontainer-push.mx-scrollcontainer-open:has(.mx-scrollcontainer-right.mx-scrollcontainer-toggleable) > :not(.mx-scrollcontainer-toggleable) {
-  transform: translateX(calc(0px - var(--toggleable-sidebar-width))) translateX(var(--closed-sidebar-width, 0px));
-}
-
-.mx-scrollcontainer-push {
-  overflow-x: clip;
-}
-
-.mx-scrollcontainer-wrapper {
-  height: 100%;
-}
+   Default Mendix Scroll Container Widget.
+========================================================================== */
 .mx-scrollcontainer-wrapper:not(.mx-scrollcontainer-nested) {
   -webkit-overflow-scrolling: touch;
 }
-.mx-scrollcontainer-wrapper > .mx-placeholder {
-  height: 100%;
+
+.mx-scrollcontainer-horizontal {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.mx-scrollcontainer-horizontal > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.mx-scrollcontainer-nested {
+  padding: 0;
+}
+
+.mx-scrollcontainer-fixed > .mx-scrollcontainer-middle > .mx-scrollcontainer-wrapper,
+.mx-scrollcontainer-fixed > .mx-scrollcontainer-left > .mx-scrollcontainer-wrapper,
+.mx-scrollcontainer-fixed > .mx-scrollcontainer-center > .mx-scrollcontainer-wrapper,
+.mx-scrollcontainer-fixed > .mx-scrollcontainer-right > .mx-scrollcontainer-wrapper {
+  overflow: auto;
+}
+
+.mx-scrollcontainer-move-in {
+  transition: left 250ms ease-out;
+}
+
+.mx-scrollcontainer-move-out {
+  transition: left 250ms ease-in;
+}
+
+.mx-scrollcontainer-shrink .mx-scrollcontainer-toggleable {
+  transition-property: width;
+}
+
+.mx-scrollcontainer-toggleable {
+  background-color: #fff;
+}
+
+.mx-scrollcontainer-push {
+  position: relative;
+}
+
+.mx-scrollcontainer-shrink > .mx-scrollcontainer-toggleable {
+  overflow: hidden;
 }
 
 .mx-scrollcontainer-push.mx-scrollcontainer-open > div,
@@ -20884,28 +23305,32 @@ input[type=radio] + label {
   pointer-events: auto;
 }
 
+.mx-scrollcontainer .mx-placeholder {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: calc(768px - 1px)) {
-  .mx-scrollcontainer-center .mx-layoutgrid,
-.mx-scrollcontainer-center .mx-layoutgrid-fluid {
+  .mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid {
     padding: 16px 16px 16px 16px;
   }
 }
 @media (min-width: 768px) {
-  .mx-scrollcontainer-center .mx-layoutgrid,
-.mx-scrollcontainer-center .mx-layoutgrid-fluid {
+  .mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid {
     padding: 24px 24px 24px 24px;
   }
 }
 @media (min-width: 992px) {
-  .mx-scrollcontainer-center .mx-layoutgrid,
-.mx-scrollcontainer-center .mx-layoutgrid-fluid {
+  .mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid {
     padding: 24px 24px 24px 24px;
   }
 }
-.mx-scrollcontainer-center .mx-layoutgrid .mx-layoutgrid,
-.mx-scrollcontainer-center .mx-layoutgrid .mx-layoutgrid-fluid,
-.mx-scrollcontainer-center .mx-layoutgrid-fluid .mx-layoutgrid,
-.mx-scrollcontainer-center .mx-layoutgrid-fluid .mx-layoutgrid-fluid {
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .mx-layoutgrid-fluid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid .mx-layoutgrid-fluid {
   padding: 0;
 }
 
@@ -24918,7 +27343,8 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   transform: rotate(180deg);
 }
 .layout-atlas .region-sidebar {
-  background-color: #24276c;
+  background-color: #b6def8;
+  z-index: 101;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 2px 4px 8px rgba(0, 0, 0, 0.28);
 }
 .layout-atlas .region-sidebar .mx-scrollcontainer-wrapper {
@@ -24935,7 +27361,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   margin-right: 8px;
 }
 .layout-atlas .region-sidebar .sidebar-heading {
-  background: #171946;
+  background: #87c9f4;
 }
 .layout-atlas .region-sidebar .toggle-btn {
   margin-right: 8px;
@@ -24948,7 +27374,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   position: relative;
   z-index: 60;
   min-height: 48px;
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .layout-atlas .region-topbar .topbar-content {
   display: flex;
@@ -24996,6 +27422,9 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   margin-top: 5px;
   padding: 0 20px;
 }
+.layout-atlas .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .region-sidebar {
+  overflow: hidden;
+}
 
 /* ==========================================================================
    Atlas layout
@@ -25005,7 +27434,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 .layout-atlas-phone .region-topbar {
   min-height: 45px;
   border-style: none;
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .layout-atlas-phone .region-topbar::before {
   display: none;
@@ -25025,6 +27454,14 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   .layout-atlas-responsive,
 .layout-atlas-responsive-default {
     --closed-sidebar-width: 52px;
+  }
+  .layout-atlas-responsive .mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive .mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive-default .mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive-default .mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .region-sidebar {
+    width: 52px !important;
   }
   .layout-atlas-responsive .mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open) > .region-sidebar .mx-scrollcontainer-wrapper .mx-navigationtree ul li.mx-navigationtree-has-items a,
 .layout-atlas-responsive .mx-scrollcontainer-push:not(.mx-scrollcontainer-open) > .region-sidebar .mx-scrollcontainer-wrapper .mx-navigationtree ul li.mx-navigationtree-has-items a,
@@ -25089,6 +27526,34 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
     display: none;
   }
 }
+.layout-atlas-responsive .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .region-sidebar,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open) > .region-sidebar {
+  overflow: hidden;
+}
+.layout-atlas-responsive .mx-scrollcontainer-slide.mx-scrollcontainer-open > .region-sidebar,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide.mx-scrollcontainer-open > .region-sidebar {
+  width: 52px !important;
+}
+.layout-atlas-responsive .mx-scrollcontainer-slide.mx-scrollcontainer-open > .region-sidebar > .mx-scrollcontainer-wrapper,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide.mx-scrollcontainer-open > .region-sidebar > .mx-scrollcontainer-wrapper {
+  position: relative;
+}
+.layout-atlas-responsive .mx-scrollcontainer-slide .region-sidebar > .mx-scrollcontainer-wrapper,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide .region-sidebar > .mx-scrollcontainer-wrapper {
+  z-index: 2;
+  left: -52px;
+  background-color: inherit;
+}
+@media (max-width: calc(768px - 1px)) {
+  .layout-atlas-responsive .mx-scrollcontainer-open:not(.mx-scrollcontainer-slide),
+.layout-atlas-responsive-default .mx-scrollcontainer-open:not(.mx-scrollcontainer-slide) {
+    width: 1100px;
+  }
+  .layout-atlas-responsive .mx-scrollcontainer-slide .toggle-btn,
+.layout-atlas-responsive-default .mx-scrollcontainer-slide .toggle-btn {
+    display: inline-block !important;
+  }
+}
 .layout-atlas-responsive .region-sidebar .toggle-btn,
 .layout-atlas-responsive-default .region-sidebar .toggle-btn {
   width: 52px;
@@ -25102,7 +27567,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   padding: 8px;
   align-items: center;
   min-height: calc(48px + 4px);
-  background: #171946;
+  background: #87c9f4;
 }
 .layout-atlas-responsive .region-sidebar .mx-scrollcontainer-wrapper .toggle-btn,
 .layout-atlas-responsive-default .region-sidebar .mx-scrollcontainer-wrapper .toggle-btn {
@@ -25190,7 +27655,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 .layout-atlas-tablet .region-topbar {
   min-height: 45px;
   border-style: none;
-  background-color: #020557;
+  background-color: #b6def8;
 }
 .layout-atlas-tablet .region-topbar::before {
   display: none;
@@ -25199,6 +27664,208 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 .layout-atlas-tablet .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .mx-icon-lined,
 .layout-atlas-tablet .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .mx-icon-filled {
   margin-right: 16px;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* ==========================================================================
@@ -25808,6 +28475,629 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 
 .statuspage-subtitle {
   opacity: 0.6;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.b-pointer {
+  cursor: pointer;
+}
+
+.ciphix-scheduler {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+.b-react-portal-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.b-calculation-progress-wrap {
+  top: 0;
+  height: 10px !important;
+}
+
+.b-schedulerpro {
+  width: 100%;
+}
+
+:where(.ciphix-scheduler) label {
+  display: unset;
+  max-width: unset;
+  margin-bottom: unset;
+  font-weight: unset;
+}
+
+.b-grid-header {
+  cursor: default;
+}
+
+.b-gridbase:not(.b-moving-splitter) .b-grid-subgrid:not(.b-timeaxissubgrid) .b-grid-row:not(.b-group-row).b-hover .b-grid-cell {
+  background-color: transparent;
+}
+
+.b-scheduler-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.b-scheduler-wrapper .b-react-scheduler-container {
+  flex: 1 1 0;
+  overflow: hidden;
+}
+.b-scheduler-wrapper .b-filters-wrapper {
+  min-width: 300px;
+}
+
+.ciphix-scheduler.b-filter-panel-open .b-scheduler-wrapper.b-auto-height .b-schedulerpro {
+  width: calc(100% - 300px);
+  max-width: calc(100% - 300px);
+}
+.ciphix-scheduler.b-filter-panel-open .b-scheduler-wrapper.b-auto-height .b-filters-wrapper {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.b-scheduler-resource {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+i.b-tree-expander,
+i.b-icon-tree-leaf {
+  color: #3f3f3f;
+}
+
+i.b-tree-expander.b-empty-parent {
+  visibility: visible;
+}
+i.b-tree-expander.b-empty-parent:before {
+  content: "";
+  background-color: #3f3f3f;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+}
+i.b-tree-expander:before {
+  font-size: 1.1em;
+}
+
+body.b-theme-classic-dark i.b-tree-expander,
+body.b-theme-classic-dark i.b-icon-tree-leaf {
+  color: #bcbcbc;
+}
+body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
+  background-color: #bcbcbc;
+}
+
+.b-sch-horizontal .b-sch-widgets .b-sch-event > .b-sch-event-content > .b-jsx-container {
+  flex: 1;
+}
+.b-sch-horizontal .b-sch-event-content > i {
+  display: flex;
+  align-items: center;
+}
+
+.b-sch-event:not(.b-milestone) .glyphicon {
+  margin-inline-end: 0.75em;
+  line-height: inherit;
+}
+
+.b-milestone .b-jsx-container {
+  position: relative;
+  height: 0;
+}
+.b-milestone .b-jsx-container .mx-text {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: -8px;
+  left: 110%;
+  white-space: nowrap;
+  color: #333;
+}
+
+.b-eventbuffer.b-sch-vertical .b-sch-event-wrap i {
+  margin-right: 0.3em;
+}
+
+.b-sch-dependency-arrow {
+  fill: #939393;
+}
+
+.b-sch-dependency {
+  stroke: #939393;
+}
+
+.b-timeline-subgrid .b-sch-current-time label {
+  max-width: none;
+  color: #fff;
+}
+
+.b-tooltip > .b-popup-header {
+  display: none;
+}
+
+.b-sch-event-tooltip .b-panel-content {
+  overflow: auto;
+}
+
+.timespan-type--example-1 {
+  background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0) 46%, #e03218 49%, #e03218 51%, rgba(0, 0, 0, 0) 55%);
+  background-size: 6px 6px !important;
+}
+
+.timespan-type--example-2 {
+  background: repeating-linear-gradient(-55deg, #ddd, #ddd 10px, #eee 5px, #eee 20px);
+  opacity: 0.7;
+}
+
+.b-scheduler_navigation {
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+  width: 100%;
+}
+.b-scheduler_navigation .mx-dropdown.form-group {
+  min-width: 175px;
+  margin-bottom: 0;
+}
+
+.b-scheduler_progress {
+  display: inline-flex;
+  align-items: center;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-left: 7px;
+}
+
+.glyphicon-spin {
+  margin-right: 7px;
+  -webkit-animation: glyphicon-spin-r 2s infinite linear;
+  animation: glyphicon-spin-r 2s infinite linear;
+}
+
+@keyframes glyphicon-spin-r {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.b-scheduler_custom-navigation {
+  z-index: 4;
+}
+
+.b-drag-from-outside.b-sch-event-wrap {
+  display: flex;
+}
+
+.ciphix-scheduler-drag-helper:not(.b-dragging-disabled) {
+  cursor: grab;
+}
+
+.b-dragging {
+  opacity: 0.5;
+}
+
+.b-schedulerpro.b-highlighting .b-sch-event-wrap .b-sch-event {
+  opacity: 0.2;
+}
+.b-schedulerpro.b-highlighting .b-sch-event-wrap .b-sch-event.b-match {
+  opacity: 1;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 .widget-datagrid-export-alert {
@@ -27748,6 +31038,208 @@ input[type=checkbox].three-state-checkbox + .control-label {
 /* 
     ==| Variables |=========================================================================================
 */
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
 /* 
     ==| Widget blocks |=====================================================================================
     These blocks contains styles directly related to the widget's appearance and are mostly unique styles
@@ -28081,6 +31573,612 @@ Do not render = "none"
 .mxfeedback-underlay {
   inset: 0;
   z-index: 1000001;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */

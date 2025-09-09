@@ -1,0 +1,71 @@
+@import "../exclusion-variables";
+
+@import "./base/base";
+@if not $exclude-scheduler-base {
+  @include base();
+}
+
+@import "./components/scheduler";
+@if not $exclude-scheduler-scheduler {
+  @include scheduler();
+}
+
+@import "components/grid";
+@if not $exclude-scheduler-grid {
+  @include grid();
+}
+
+@import "components/resources";
+@if not $exclude-scheduler-resources {
+  @include resources();
+}
+
+@import "./components/events";
+@if not $exclude-scheduler-events {
+  @include events();
+}
+
+@import "./components/dependencies";
+@if not $exclude-scheduler-dependencies {
+  @include dependencies();
+}
+
+@import "./components/current-time";
+@if not $exclude-gantt-current-time {
+  @include current-time();
+}
+
+@import "./components/tooltips";
+@if not $exclude-scheduler-tooltips {
+  @include tooltips();
+}
+
+@import "./components/timespans";
+@if not $exclude-scheduler-timespans {
+  @include timespans();
+}
+
+@import "./components/navigation/navigation";
+@if not $exclude-scheduler-default-nav-navigation {
+  @include default-nav-navigation();
+}
+
+@import "./components/navigation/loader";
+@if not $exclude-scheduler-default-nav-loader {
+  @include default-nav-loader();
+}
+
+@import "./components/navigation/custom-navigation";
+@if not $exclude-scheduler-custom-nav-navigation {
+  @include custom-nav-navigation();
+}
+
+@import "./components/drag-and-drop-helper";
+@if not $exclude-scheduler-drag-and-drop-helper {
+  @include drag-and-drop-helper();
+}
+
+@import "./components/scheduler-filtering";
+@if not $exclude-scheduler-filtering {
+  @include scheduler-filtering();
+}

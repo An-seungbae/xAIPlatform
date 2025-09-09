@@ -38,13 +38,13 @@ $border-color-default: #ced0d3;
 $border-radius-default: 4px;
 
 // Topbar
-$topbar-bg: #020557;
+$topbar-bg: #b6def8;
 $topbar-minimalheight: 48px;
 $topbar-border-color: $border-color-default;
 
 // Sidebar
-$sidebar-bg: #24276c;
-
+$sidebar-bg: #b6def8;
+$sidebar-bgs: #b6def8;
 // Topbar mobile
 $m-header-height: 45px;
 $m-header-bg: $topbar-bg;
@@ -56,6 +56,8 @@ $navbar-brand-name: #fff;
 
 // Background Colors
 // Backgrounds
+//$bg-color: #f8f8f8;
+//$bg-color: #eff6ff;
 $bg-color: #f8f8f8;
 $bg-color-secondary: #fff;
 
@@ -132,7 +134,7 @@ $navigation-sub-color-hover: #fff;
 $navigation-sub-color-active: #fff;
 
 // Navigation Sidebar
-$navsidebar-bg: $sidebar-bg;
+$navsidebar-bg: $sidebar-bgs;
 $navsidebar-bg-hover: darken($navsidebar-bg, 10%);
 $navsidebar-bg-active: darken($navsidebar-bg, 10%);
 
@@ -721,3 +723,245 @@ $callout-info-color: $brand-info;
 
 // Background Color
 $callout-info-bg: $color-info-lighter;
+
+// 컨테이너
+.con-div{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    padding: 15px; 
+    background-color: white;
+    color: black;
+    font-weight: bold;        
+}
+
+
+// 데이터 그리드 박스
+.grid-box{
+ background-color: white;
+border-radius: 12px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+padding: 12px;   
+}
+
+// 입력 박스 스타일
+.text-box{
+height: 36px;
+border-radius: 8px;
+padding: 0 12px;
+border: 1px solid #e2e8f0;
+}
+
+// 검색 필터 영역 (입력 + 버튼들 들어간 구역)
+.search-text{
+padding: 16px;
+background-color: #ffffff;
+border-radius: 12px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+align-items: center;
+margin-bottom: 12px;
+}
+
+//Search (기본)
+.search-btn{
+background-color: #4C6EF5;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-weight: 500;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+//New (강조)
+.new-btn{
+background-color: #20C997;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-weight: 500;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);   
+}
+
+// Edit (보조)
+
+.Edit-btn{
+background-color: #F1F3F5;
+color: #343A40;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-weight: 500;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+//  Delete (위험)
+.delete-btn{
+background-color: #FA5252;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-weight: 500;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+
+// Export to Excel (연한 블루)
+
+.excel-btn{
+background-color: #D0EBFF;
+color: #1C7ED6;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-weight: 500;
+transition: 0.3s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+// save 저장
+.save-btn{
+background-color: #38d9a9;
+color: white;
+padding: 8px 20px;
+border: none;
+border-radius: 8px;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.2s;
+
+}
+
+
+
+//퍼플
+  .per-btn{
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+ // 블루
+ .blue-btn{
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+ // 오렌지
+ org-btn{
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+ //   레드 
+  
+  .red-btn{
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+ //그레이
+ .gray-btn{
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+ //Cancel 버튼
+.can-btn{
+background-color: #f1f3f5;
+color: #343a40;
+padding: 8px 20px;
+border: 1px solid #ced4da;
+border-radius: 8px;
+font-weight: 500;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+
+$grid-header-bg: #4CAF50;
+$grid-header-color: white;
+$grid-header-hover: #45a049;
+
+.customGridHeader {
+  .mx-datagrid2-header {
+    background-color: $grid-header-bg !important;
+    color: $grid-header-color !important;
+    font-weight: bold;
+
+    .mx-datagrid2-cell:hover {
+      background-color: $grid-header-hover !important;
+    }
+  }
+}
+.mx-datagrid2 .column-header {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px 30px 20px 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+    background: linear-gradient(180deg, 
+        #FFFFFF 0%, 
+        #F8F6F0 50%, 
+        #F0EDE5 100%
+    );
+    border-bottom: 1px solid #E0DDD6;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    color: #2C2C2C;
+    font-weight: 500;
+}

@@ -1,0 +1,38 @@
+@mixin default-nav-navigation {
+  .b-scheduler_navigation {
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+    width: 100%;
+
+    .b-scheduler_button {
+      &--next {
+      }
+
+      &--prev {
+      }
+
+      &--today {
+      }
+    }
+
+    // view select
+    .mx-dropdown.form-group {
+      min-width: 175px;
+      margin-bottom: 0;
+    }
+  }
+
+  // This can be used to style custom navigation when enabled
+  .b-scheduler_custom-navigation {
+  }
+
+  // Us this to style things when the scheduler is fetching data
+  .b-is-fetching {
+    .b-scheduler_navigation {
+    }
+
+    .b-scheduler_custom-navigation {
+    }
+  }
+}

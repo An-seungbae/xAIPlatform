@@ -1,0 +1,103 @@
+@import '../../../theme/web/custom-variables';
+
+$scheduler-black-color: #0a1426;
+$scheduler-white-color: #FFF;
+$scheduler-date-padding: 25px;
+
+$date-picker-size: 267px;
+
+.scheduling {
+    $self: &;
+
+    &-date {
+        &-container {
+            position: relative;
+        }
+
+        &-text {
+            padding-left: 2 * $scheduler-date-padding;
+            padding-right: $scheduler-date-padding;
+            color: $scheduler-black-color;
+        }
+
+        &-selector {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            width: calc(100% + 25px);
+
+            input.form-control {
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                left: calc((100% - #{$date-picker-size}) / 2);
+                width: 1px;
+                min-width: 1px;
+                opacity: 0;
+            }
+            .btn {
+                color: $scheduler-black-color;
+                position: absolute;
+                background-color: transparent;
+                border-width: 0;
+                font-size: 20px;
+                padding: 3px 0 0 10px;
+                width: calc(100% - 25px);
+                text-align: left;
+            }
+        }
+
+        &-button {
+            color: $scheduler-black-color;
+            font-size: 19px;
+            line-height: 32px;
+            &:hover {
+                color: $scheduler-black-color;
+            }
+        }
+    }
+
+    &-edit-button {
+        color: $scheduler-black-color;
+        border-width: 0;
+        font-size: 20px;
+        padding: 0px 0 0 5px;
+
+        img {
+            height: 22px;
+            margin-right: 5px;
+            vertical-align: text-bottom;
+        }
+    }
+
+    &-groupbox {
+        .mx-groupbox-header {
+            // background: $scheduler-black-color;
+            // color: $scheduler-white-color;
+            font-size: 22px;
+        }
+        .mx-groupbox-body {
+            padding: 0;
+        }
+    }
+
+    &-period {
+
+        &-container {
+            width: 50%;
+            
+        }
+
+        &-label {
+            color: $scheduler-black-color;
+        }
+
+        &-selector {
+            .form-control {
+                padding: 5px 10px;
+                min-width: 120px;
+            }
+        }
+    }
+}

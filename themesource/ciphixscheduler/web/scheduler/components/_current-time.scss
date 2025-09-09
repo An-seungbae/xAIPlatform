@@ -1,0 +1,6 @@
+@mixin current-time {
+  .b-timeline-subgrid .b-sch-current-time label {
+    max-width: none; // override Atlas UI bootstrap
+    color: #fff;
+  }
+}
