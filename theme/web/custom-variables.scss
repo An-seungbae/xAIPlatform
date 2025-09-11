@@ -965,3 +965,133 @@ $grid-header-hover: #45a049;
     color: #2C2C2C;
     font-weight: 500;
 }
+
+
+/* 세련된 기본 텍스트 */
+.font-modern {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 굵고 강조된 타이틀 */
+.font-bold-title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* 손글씨 느낌 */
+.font-handwriting {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+/* 세리프 느낌 (책자 스타일) */
+.font-serif {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 미래지향적인 느낌 */
+.font-futuristic {
+  font-family: "Orbitron", "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0a84ff;
+}
+
+/* 포인트 강조용 */
+.font-highlight {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+/* 포인트 강조용 */
+.font-blue {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2769e6;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+/* 1. 기본 텍스트 (데이터 표, 설명) */
+.dash-text {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 2. 작은 캡션 (라벨, 단위 표시) */
+.dash-cap {
+  font-size: 11px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.2px;
+}
+
+/* 3. 주요 수치 (데이터 강조용) */
+.dash-num {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8; /* 파란색 강조 */
+}
+
+/* 4. 섹션 타이틀 (카드 헤더 등) */
+.dash-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-warr {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e63946; /* 빨간색 */
+}
+/* 5. 경고/주의 텍스트 */
+.dash-alert {
+  font-size: 13px;
+  font-weight: 500;
+  color: #88800e9a; /* 노란색 */
+}
+/* 노란색 계열 알림 텍스트 (주의 메시지) */
+.alert-warr {
+    font-size: 14px;
+    font-weight: bold;
+    color: #d97706; /* 진한 노랑-주황 계열 */
+    background-color: #fef9c3; /* 연한 노랑 배경 */
+    border-left: 4px solid #facc15; /* 강조용 라인 */
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
+.alert-danger {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b91c1c; /* 진한 빨강 */
+    background-color: #fee2e2; /* 연한 빨강 배경 */
+    border-left: 4px solid #ef4444; /* 강조용 라인 */
+    padding: 6px 10px;
+    border-radius: 6px;
+}
