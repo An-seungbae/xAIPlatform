@@ -1095,3 +1095,91 @@ $grid-header-hover: #45a049;
     padding: 6px 10px;
     border-radius: 6px;
 }
+
+
+/* 업무 대시보드 컨테이너 */
+.con-div1 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+
+/* 섹션 제목 */
+.dash-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* 데이터 그리드 테이블 */
+.mx-datagrid, 
+.mx-datagrid2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* 헤더 */
+.mx-datagrid2 .column-header {
+  background-color: #f8f9fb;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* 행 */
+.mx-datagrid2 td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #444;
+}
+
+/* 상태 뱃지 스타일 */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #e6f9f0;
+  color: #0f9d58;
+}
+
+.status-waiting {
+  background-color: #fff7e6;
+  color: #f4a100;
+}
+
+/* 검색창 */
+.dashboard-search {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+
+  &:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+  }
+}
+
+
+/* Main 컨테이너 */
+.con-main {
+  background-color: #f0f0f0d7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
