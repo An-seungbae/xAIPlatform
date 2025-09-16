@@ -1183,3 +1183,56 @@ $grid-header-hover: #45a049;
   padding: 20px;
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
+.con-main1 {
+  background-color: #f0f0f0d7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+.con-main2 {
+  background-color: #f0f0f0d7;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+.con-main3 {
+  background-color: #f0f0f0d7;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #666; /* 두께와 색상 설정 */
+}
+
+
+.pop-font {
+  font-size: 11px;
+  font-weight: 500;
+  color: #08529c9f;
+  letter-spacing: 0.2px;
+}
+.pop-font1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242525;
+  letter-spacing: 0.2px;
+}
+
+.pop-font2 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.pop-font3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #08529c9f;
+  letter-spacing: 0.2px;
+}
