@@ -1223,6 +1223,7 @@ $grid-header-hover: #45a049;
   letter-spacing: 0.2px;
 }
 
+
 .pop-font2 {
   font-family: "Verdana", Geneva, sans-serif;
   font-size: 12px;
@@ -1236,3 +1237,34 @@ $grid-header-hover: #45a049;
   color: #08529c9f;
   letter-spacing: 0.2px;
 }
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #08529c9f;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  }
+

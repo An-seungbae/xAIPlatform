@@ -3435,970 +3435,36 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
-.con-div {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 15px;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-}
-
-.grid-box {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  padding: 12px;
-}
-
-.text-box {
-  height: 36px;
-  border-radius: 8px;
-  padding: 0 12px;
-  border: 1px solid #e2e8f0;
-}
-
-.search-text {
-  padding: 16px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.search-btn {
-  background-color: #4C6EF5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.new-btn {
-  background-color: #20C997;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.Edit-btn {
-  background-color: #F1F3F5;
-  color: #343A40;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.delete-btn {
-  background-color: #FA5252;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.excel-btn {
-  background-color: #D0EBFF;
-  color: #1C7ED6;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.save-btn {
-  background-color: #38d9a9;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.per-btn {
-  background-color: #845ef7;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.blue-btn {
-  background-color: #339af0;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-org-btn {
-  background-color: #ff922b;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.red-btn {
-  background-color: #fa5252;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.gray-btn {
-  background-color: #868e96;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.can-btn {
-  background-color: #f1f3f5;
-  color: #343a40;
-  padding: 8px 20px;
-  border: 1px solid #ced4da;
-  border-radius: 8px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
-}
-
-/* 세련된 기본 텍스트 */
-.font-modern {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 굵고 강조된 타이틀 */
-.font-bold-title {
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: #1a1a1a;
-  letter-spacing: 1px;
-}
-
-/* 손글씨 느낌 */
-.font-handwriting {
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
-  font-size: 18px;
-  font-style: italic;
-  color: #444;
-}
-
-/* 세리프 느낌 (책자 스타일) */
-.font-serif {
-  font-family: "Times New Roman", Georgia, serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #222;
-}
-
-/* 미래지향적인 느낌 */
-.font-futuristic {
-  font-family: "Orbitron", "Roboto", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0a84ff;
-}
-
-/* 포인트 강조용 */
-.font-highlight {
+.pop-font4 {
   font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 포인트 강조용 */
-.font-blue {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #2769e6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 1. 기본 텍스트 (데이터 표, 설명) */
-.dash-text {
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 2. 작은 캡션 (라벨, 단위 표시) */
-.dash-cap {
-  font-size: 11px;
-  font-weight: 400;
-  color: #666;
-  letter-spacing: 0.2px;
-}
-
-/* 3. 주요 수치 (데이터 강조용) */
-.dash-num {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1a73e8;
-  /* 파란색 강조 */
-}
-
-/* 4. 섹션 타이틀 (카드 헤더 등) */
-.dash-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: #222;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-warr {
-  font-size: 13px;
-  font-weight: 500;
-  color: #e63946;
-  /* 빨간색 */
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-alert {
-  font-size: 13px;
-  font-weight: 500;
-  color: rgba(136, 128, 14, 0.6039215686);
-  /* 노란색 */
-}
-
-/* 노란색 계열 알림 텍스트 (주의 메시지) */
-.alert-warr {
-  font-size: 14px;
   font-weight: bold;
-  color: #d97706;
-  /* 진한 노랑-주황 계열 */
-  background-color: #fef9c3;
-  /* 연한 노랑 배경 */
-  border-left: 4px solid #facc15;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
-.alert-danger {
-  font-size: 14px;
-  font-weight: bold;
-  color: #b91c1c;
-  /* 진한 빨강 */
-  background-color: #fee2e2;
-  /* 연한 빨강 배경 */
-  border-left: 4px solid #ef4444;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 업무 대시보드 컨테이너 */
-.con-div1 {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-/* 섹션 제목 */
-.dash-title1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-/* 데이터 그리드 테이블 */
-.mx-datagrid,
-.mx-datagrid2 {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-/* 헤더 */
-.mx-datagrid2 .column-header {
-  background-color: #f8f9fb;
-  color: #333;
-  font-weight: 600;
-  text-align: left;
-  padding: 12px;
-  border-bottom: 2px solid #e5e7eb;
-}
-
-/* 행 */
-.mx-datagrid2 td {
-  padding: 12px;
-  border-bottom: 1px solid #e5e7eb;
-  color: #444;
-}
-
-/* 상태 뱃지 스타일 */
-.status-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.status-active {
-  background-color: #e6f9f0;
-  color: #0f9d58;
-}
-
-.status-waiting {
-  background-color: #fff7e6;
-  color: #f4a100;
-}
-
-/* 검색창 */
-.dashboard-search {
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease-in-out;
-}
-.dashboard-search:focus {
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
-}
-
-/* Main 컨테이너 */
-.con-main {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main1 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 14px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main2 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 3px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  padding: 2px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.bottom-line {
-  border-bottom: 1px solid #666;
-  /* 두께와 색상 설정 */
-}
-
-.pop-font {
-  font-size: 11px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
-}
-
-.pop-font1 {
-  font-size: 12px;
-  font-weight: 500;
   color: #242525;
-  letter-spacing: 0.2px;
-}
-
-.pop-font2 {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #e63946;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.pop-font3 {
-  font-size: 10px;
+.pop-font5 {
+  font-size: 12px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
-}
-
-.con-div {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 15px;
-  background-color: white;
-  color: black;
   font-weight: bold;
 }
 
-.grid-box {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  padding: 12px;
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
 }
 
-.text-box {
-  height: 36px;
-  border-radius: 8px;
-  padding: 0 12px;
-  border: 1px solid #e2e8f0;
-}
-
-.search-text {
-  padding: 16px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.search-btn {
-  background-color: #4C6EF5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.new-btn {
-  background-color: #20C997;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.Edit-btn {
-  background-color: #F1F3F5;
-  color: #343A40;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.delete-btn {
-  background-color: #FA5252;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.excel-btn {
-  background-color: #D0EBFF;
-  color: #1C7ED6;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.save-btn {
-  background-color: #38d9a9;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.per-btn {
-  background-color: #845ef7;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.blue-btn {
-  background-color: #339af0;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-org-btn {
-  background-color: #ff922b;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.red-btn {
-  background-color: #fa5252;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.gray-btn {
-  background-color: #868e96;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.can-btn {
-  background-color: #f1f3f5;
-  color: #343a40;
-  padding: 8px 20px;
-  border: 1px solid #ced4da;
-  border-radius: 8px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
-}
-
-/* 세련된 기본 텍스트 */
-.font-modern {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 굵고 강조된 타이틀 */
-.font-bold-title {
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: #1a1a1a;
-  letter-spacing: 1px;
-}
-
-/* 손글씨 느낌 */
-.font-handwriting {
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
-  font-size: 18px;
-  font-style: italic;
-  color: #444;
-}
-
-/* 세리프 느낌 (책자 스타일) */
-.font-serif {
-  font-family: "Times New Roman", Georgia, serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #222;
-}
-
-/* 미래지향적인 느낌 */
-.font-futuristic {
-  font-family: "Orbitron", "Roboto", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0a84ff;
-}
-
-/* 포인트 강조용 */
-.font-highlight {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 포인트 강조용 */
-.font-blue {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #2769e6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 1. 기본 텍스트 (데이터 표, 설명) */
-.dash-text {
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 2. 작은 캡션 (라벨, 단위 표시) */
-.dash-cap {
-  font-size: 11px;
-  font-weight: 400;
-  color: #666;
-  letter-spacing: 0.2px;
-}
-
-/* 3. 주요 수치 (데이터 강조용) */
-.dash-num {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1a73e8;
-  /* 파란색 강조 */
-}
-
-/* 4. 섹션 타이틀 (카드 헤더 등) */
-.dash-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: #222;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-warr {
-  font-size: 13px;
-  font-weight: 500;
-  color: #e63946;
-  /* 빨간색 */
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-alert {
-  font-size: 13px;
-  font-weight: 500;
-  color: rgba(136, 128, 14, 0.6039215686);
-  /* 노란색 */
-}
-
-/* 노란색 계열 알림 텍스트 (주의 메시지) */
-.alert-warr {
-  font-size: 14px;
-  font-weight: bold;
-  color: #d97706;
-  /* 진한 노랑-주황 계열 */
-  background-color: #fef9c3;
-  /* 연한 노랑 배경 */
-  border-left: 4px solid #facc15;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
-.alert-danger {
-  font-size: 14px;
-  font-weight: bold;
-  color: #b91c1c;
-  /* 진한 빨강 */
-  background-color: #fee2e2;
-  /* 연한 빨강 배경 */
-  border-left: 4px solid #ef4444;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 업무 대시보드 컨테이너 */
-.con-div1 {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-/* 섹션 제목 */
-.dash-title1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-/* 데이터 그리드 테이블 */
-.mx-datagrid,
-.mx-datagrid2 {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-/* 헤더 */
-.mx-datagrid2 .column-header {
-  background-color: #f8f9fb;
-  color: #333;
-  font-weight: 600;
-  text-align: left;
-  padding: 12px;
-  border-bottom: 2px solid #e5e7eb;
-}
-
-/* 행 */
-.mx-datagrid2 td {
-  padding: 12px;
-  border-bottom: 1px solid #e5e7eb;
-  color: #444;
-}
-
-/* 상태 뱃지 스타일 */
-.status-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.status-active {
-  background-color: #e6f9f0;
-  color: #0f9d58;
-}
-
-.status-waiting {
-  background-color: #fff7e6;
-  color: #f4a100;
-}
-
-/* 검색창 */
-.dashboard-search {
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease-in-out;
-}
-.dashboard-search:focus {
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
-}
-
-/* Main 컨테이너 */
-.con-main {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main1 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 14px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main2 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 3px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  padding: 2px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.bottom-line {
-  border-bottom: 1px solid #666;
-  /* 두께와 색상 설정 */
-}
-
-.pop-font {
-  font-size: 11px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
-}
-
-.pop-font1 {
-  font-size: 12px;
-  font-weight: 500;
-  color: #242525;
-  letter-spacing: 0.2px;
-}
-
-.pop-font2 {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.pop-font3 {
-  font-size: 10px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 .con-div {
@@ -4884,970 +3950,36 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
-.con-div {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 15px;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-}
-
-.grid-box {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  padding: 12px;
-}
-
-.text-box {
-  height: 36px;
-  border-radius: 8px;
-  padding: 0 12px;
-  border: 1px solid #e2e8f0;
-}
-
-.search-text {
-  padding: 16px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.search-btn {
-  background-color: #4C6EF5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.new-btn {
-  background-color: #20C997;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.Edit-btn {
-  background-color: #F1F3F5;
-  color: #343A40;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.delete-btn {
-  background-color: #FA5252;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.excel-btn {
-  background-color: #D0EBFF;
-  color: #1C7ED6;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.save-btn {
-  background-color: #38d9a9;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.per-btn {
-  background-color: #845ef7;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.blue-btn {
-  background-color: #339af0;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-org-btn {
-  background-color: #ff922b;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.red-btn {
-  background-color: #fa5252;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.gray-btn {
-  background-color: #868e96;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.can-btn {
-  background-color: #f1f3f5;
-  color: #343a40;
-  padding: 8px 20px;
-  border: 1px solid #ced4da;
-  border-radius: 8px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
-}
-
-/* 세련된 기본 텍스트 */
-.font-modern {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 굵고 강조된 타이틀 */
-.font-bold-title {
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: #1a1a1a;
-  letter-spacing: 1px;
-}
-
-/* 손글씨 느낌 */
-.font-handwriting {
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
-  font-size: 18px;
-  font-style: italic;
-  color: #444;
-}
-
-/* 세리프 느낌 (책자 스타일) */
-.font-serif {
-  font-family: "Times New Roman", Georgia, serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #222;
-}
-
-/* 미래지향적인 느낌 */
-.font-futuristic {
-  font-family: "Orbitron", "Roboto", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0a84ff;
-}
-
-/* 포인트 강조용 */
-.font-highlight {
+.pop-font4 {
   font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 포인트 강조용 */
-.font-blue {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #2769e6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 1. 기본 텍스트 (데이터 표, 설명) */
-.dash-text {
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 2. 작은 캡션 (라벨, 단위 표시) */
-.dash-cap {
-  font-size: 11px;
-  font-weight: 400;
-  color: #666;
-  letter-spacing: 0.2px;
-}
-
-/* 3. 주요 수치 (데이터 강조용) */
-.dash-num {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1a73e8;
-  /* 파란색 강조 */
-}
-
-/* 4. 섹션 타이틀 (카드 헤더 등) */
-.dash-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: #222;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-warr {
-  font-size: 13px;
-  font-weight: 500;
-  color: #e63946;
-  /* 빨간색 */
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-alert {
-  font-size: 13px;
-  font-weight: 500;
-  color: rgba(136, 128, 14, 0.6039215686);
-  /* 노란색 */
-}
-
-/* 노란색 계열 알림 텍스트 (주의 메시지) */
-.alert-warr {
-  font-size: 14px;
   font-weight: bold;
-  color: #d97706;
-  /* 진한 노랑-주황 계열 */
-  background-color: #fef9c3;
-  /* 연한 노랑 배경 */
-  border-left: 4px solid #facc15;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
-.alert-danger {
-  font-size: 14px;
-  font-weight: bold;
-  color: #b91c1c;
-  /* 진한 빨강 */
-  background-color: #fee2e2;
-  /* 연한 빨강 배경 */
-  border-left: 4px solid #ef4444;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 업무 대시보드 컨테이너 */
-.con-div1 {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-/* 섹션 제목 */
-.dash-title1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-/* 데이터 그리드 테이블 */
-.mx-datagrid,
-.mx-datagrid2 {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-/* 헤더 */
-.mx-datagrid2 .column-header {
-  background-color: #f8f9fb;
-  color: #333;
-  font-weight: 600;
-  text-align: left;
-  padding: 12px;
-  border-bottom: 2px solid #e5e7eb;
-}
-
-/* 행 */
-.mx-datagrid2 td {
-  padding: 12px;
-  border-bottom: 1px solid #e5e7eb;
-  color: #444;
-}
-
-/* 상태 뱃지 스타일 */
-.status-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.status-active {
-  background-color: #e6f9f0;
-  color: #0f9d58;
-}
-
-.status-waiting {
-  background-color: #fff7e6;
-  color: #f4a100;
-}
-
-/* 검색창 */
-.dashboard-search {
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease-in-out;
-}
-.dashboard-search:focus {
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
-}
-
-/* Main 컨테이너 */
-.con-main {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main1 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 14px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main2 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 3px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  padding: 2px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.bottom-line {
-  border-bottom: 1px solid #666;
-  /* 두께와 색상 설정 */
-}
-
-.pop-font {
-  font-size: 11px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
-}
-
-.pop-font1 {
-  font-size: 12px;
-  font-weight: 500;
   color: #242525;
-  letter-spacing: 0.2px;
-}
-
-.pop-font2 {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #e63946;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.pop-font3 {
-  font-size: 10px;
+.pop-font5 {
+  font-size: 12px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
-}
-
-.con-div {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 15px;
-  background-color: white;
-  color: black;
   font-weight: bold;
 }
 
-.grid-box {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  padding: 12px;
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
 }
 
-.text-box {
-  height: 36px;
-  border-radius: 8px;
-  padding: 0 12px;
-  border: 1px solid #e2e8f0;
-}
-
-.search-text {
-  padding: 16px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.search-btn {
-  background-color: #4C6EF5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.new-btn {
-  background-color: #20C997;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.Edit-btn {
-  background-color: #F1F3F5;
-  color: #343A40;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.delete-btn {
-  background-color: #FA5252;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.excel-btn {
-  background-color: #D0EBFF;
-  color: #1C7ED6;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.save-btn {
-  background-color: #38d9a9;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.per-btn {
-  background-color: #845ef7;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.blue-btn {
-  background-color: #339af0;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-org-btn {
-  background-color: #ff922b;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.red-btn {
-  background-color: #fa5252;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.gray-btn {
-  background-color: #868e96;
-  color: white;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.can-btn {
-  background-color: #f1f3f5;
-  color: #343a40;
-  padding: 8px 20px;
-  border: 1px solid #ced4da;
-  border-radius: 8px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
-}
-
-/* 세련된 기본 텍스트 */
-.font-modern {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 굵고 강조된 타이틀 */
-.font-bold-title {
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: #1a1a1a;
-  letter-spacing: 1px;
-}
-
-/* 손글씨 느낌 */
-.font-handwriting {
-  font-family: "Comic Sans MS", "Bradley Hand", cursive;
-  font-size: 18px;
-  font-style: italic;
-  color: #444;
-}
-
-/* 세리프 느낌 (책자 스타일) */
-.font-serif {
-  font-family: "Times New Roman", Georgia, serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #222;
-}
-
-/* 미래지향적인 느낌 */
-.font-futuristic {
-  font-family: "Orbitron", "Roboto", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0a84ff;
-}
-
-/* 포인트 강조용 */
-.font-highlight {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 포인트 강조용 */
-.font-blue {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #2769e6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* 1. 기본 텍스트 (데이터 표, 설명) */
-.dash-text {
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #333;
-}
-
-/* 2. 작은 캡션 (라벨, 단위 표시) */
-.dash-cap {
-  font-size: 11px;
-  font-weight: 400;
-  color: #666;
-  letter-spacing: 0.2px;
-}
-
-/* 3. 주요 수치 (데이터 강조용) */
-.dash-num {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1a73e8;
-  /* 파란색 강조 */
-}
-
-/* 4. 섹션 타이틀 (카드 헤더 등) */
-.dash-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: #222;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-warr {
-  font-size: 13px;
-  font-weight: 500;
-  color: #e63946;
-  /* 빨간색 */
-}
-
-/* 5. 경고/주의 텍스트 */
-.dash-alert {
-  font-size: 13px;
-  font-weight: 500;
-  color: rgba(136, 128, 14, 0.6039215686);
-  /* 노란색 */
-}
-
-/* 노란색 계열 알림 텍스트 (주의 메시지) */
-.alert-warr {
-  font-size: 14px;
-  font-weight: bold;
-  color: #d97706;
-  /* 진한 노랑-주황 계열 */
-  background-color: #fef9c3;
-  /* 연한 노랑 배경 */
-  border-left: 4px solid #facc15;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
-.alert-danger {
-  font-size: 14px;
-  font-weight: bold;
-  color: #b91c1c;
-  /* 진한 빨강 */
-  background-color: #fee2e2;
-  /* 연한 빨강 배경 */
-  border-left: 4px solid #ef4444;
-  /* 강조용 라인 */
-  padding: 6px 10px;
-  border-radius: 6px;
-}
-
-/* 업무 대시보드 컨테이너 */
-.con-div1 {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-/* 섹션 제목 */
-.dash-title1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-/* 데이터 그리드 테이블 */
-.mx-datagrid,
-.mx-datagrid2 {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-/* 헤더 */
-.mx-datagrid2 .column-header {
-  background-color: #f8f9fb;
-  color: #333;
-  font-weight: 600;
-  text-align: left;
-  padding: 12px;
-  border-bottom: 2px solid #e5e7eb;
-}
-
-/* 행 */
-.mx-datagrid2 td {
-  padding: 12px;
-  border-bottom: 1px solid #e5e7eb;
-  color: #444;
-}
-
-/* 상태 뱃지 스타일 */
-.status-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.status-active {
-  background-color: #e6f9f0;
-  color: #0f9d58;
-}
-
-.status-waiting {
-  background-color: #fff7e6;
-  color: #f4a100;
-}
-
-/* 검색창 */
-.dashboard-search {
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease-in-out;
-}
-.dashboard-search:focus {
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
-}
-
-/* Main 컨테이너 */
-.con-main {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main1 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 14px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main2 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
-  border-radius: 3px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  padding: 2px;
-  font-family: "Inter", "Noto Sans KR", sans-serif;
-}
-
-.bottom-line {
-  border-bottom: 1px solid #666;
-  /* 두께와 색상 설정 */
-}
-
-.pop-font {
-  font-size: 11px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
-}
-
-.pop-font1 {
-  font-size: 12px;
-  font-weight: 500;
-  color: #242525;
-  letter-spacing: 0.2px;
-}
-
-.pop-font2 {
-  font-family: "Verdana", Geneva, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #e63946;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.pop-font3 {
-  font-size: 10px;
-  font-weight: 500;
-  color: rgba(8, 82, 156, 0.6235294118);
-  letter-spacing: 0.2px;
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 .con-div {
@@ -6333,6 +4465,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .con-div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -6816,6 +4980,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .con-div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -7297,6 +5493,2098 @@ org-btn {
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+/* 세련된 기본 텍스트 */
+.font-modern {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 굵고 강조된 타이틀 */
+.font-bold-title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* 손글씨 느낌 */
+.font-handwriting {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+/* 세리프 느낌 (책자 스타일) */
+.font-serif {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 미래지향적인 느낌 */
+.font-futuristic {
+  font-family: "Orbitron", "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0a84ff;
+}
+
+/* 포인트 강조용 */
+.font-highlight {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 포인트 강조용 */
+.font-blue {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2769e6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 1. 기본 텍스트 (데이터 표, 설명) */
+.dash-text {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 2. 작은 캡션 (라벨, 단위 표시) */
+.dash-cap {
+  font-size: 11px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.2px;
+}
+
+/* 3. 주요 수치 (데이터 강조용) */
+.dash-num {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+  /* 파란색 강조 */
+}
+
+/* 4. 섹션 타이틀 (카드 헤더 등) */
+.dash-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-warr {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e63946;
+  /* 빨간색 */
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-alert {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(136, 128, 14, 0.6039215686);
+  /* 노란색 */
+}
+
+/* 노란색 계열 알림 텍스트 (주의 메시지) */
+.alert-warr {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d97706;
+  /* 진한 노랑-주황 계열 */
+  background-color: #fef9c3;
+  /* 연한 노랑 배경 */
+  border-left: 4px solid #facc15;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b91c1c;
+  /* 진한 빨강 */
+  background-color: #fee2e2;
+  /* 연한 빨강 배경 */
+  border-left: 4px solid #ef4444;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 업무 대시보드 컨테이너 */
+.con-div1 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+/* 섹션 제목 */
+.dash-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* 데이터 그리드 테이블 */
+.mx-datagrid,
+.mx-datagrid2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* 헤더 */
+.mx-datagrid2 .column-header {
+  background-color: #f8f9fb;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* 행 */
+.mx-datagrid2 td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #444;
+}
+
+/* 상태 뱃지 스타일 */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #e6f9f0;
+  color: #0f9d58;
+}
+
+.status-waiting {
+  background-color: #fff7e6;
+  color: #f4a100;
+}
+
+/* 검색창 */
+.dashboard-search {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+.dashboard-search:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+/* Main 컨테이너 */
+.con-main {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main1 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main2 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main3 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #666;
+  /* 두께와 색상 설정 */
+}
+
+.pop-font {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242525;
+  letter-spacing: 0.2px;
+}
+
+.pop-font2 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+/* 세련된 기본 텍스트 */
+.font-modern {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 굵고 강조된 타이틀 */
+.font-bold-title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* 손글씨 느낌 */
+.font-handwriting {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+/* 세리프 느낌 (책자 스타일) */
+.font-serif {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 미래지향적인 느낌 */
+.font-futuristic {
+  font-family: "Orbitron", "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0a84ff;
+}
+
+/* 포인트 강조용 */
+.font-highlight {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 포인트 강조용 */
+.font-blue {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2769e6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 1. 기본 텍스트 (데이터 표, 설명) */
+.dash-text {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 2. 작은 캡션 (라벨, 단위 표시) */
+.dash-cap {
+  font-size: 11px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.2px;
+}
+
+/* 3. 주요 수치 (데이터 강조용) */
+.dash-num {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+  /* 파란색 강조 */
+}
+
+/* 4. 섹션 타이틀 (카드 헤더 등) */
+.dash-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-warr {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e63946;
+  /* 빨간색 */
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-alert {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(136, 128, 14, 0.6039215686);
+  /* 노란색 */
+}
+
+/* 노란색 계열 알림 텍스트 (주의 메시지) */
+.alert-warr {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d97706;
+  /* 진한 노랑-주황 계열 */
+  background-color: #fef9c3;
+  /* 연한 노랑 배경 */
+  border-left: 4px solid #facc15;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b91c1c;
+  /* 진한 빨강 */
+  background-color: #fee2e2;
+  /* 연한 빨강 배경 */
+  border-left: 4px solid #ef4444;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 업무 대시보드 컨테이너 */
+.con-div1 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+/* 섹션 제목 */
+.dash-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* 데이터 그리드 테이블 */
+.mx-datagrid,
+.mx-datagrid2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* 헤더 */
+.mx-datagrid2 .column-header {
+  background-color: #f8f9fb;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* 행 */
+.mx-datagrid2 td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #444;
+}
+
+/* 상태 뱃지 스타일 */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #e6f9f0;
+  color: #0f9d58;
+}
+
+.status-waiting {
+  background-color: #fff7e6;
+  color: #f4a100;
+}
+
+/* 검색창 */
+.dashboard-search {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+.dashboard-search:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+/* Main 컨테이너 */
+.con-main {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main1 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main2 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main3 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #666;
+  /* 두께와 색상 설정 */
+}
+
+.pop-font {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242525;
+  letter-spacing: 0.2px;
+}
+
+.pop-font2 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+/* 세련된 기본 텍스트 */
+.font-modern {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 굵고 강조된 타이틀 */
+.font-bold-title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* 손글씨 느낌 */
+.font-handwriting {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+/* 세리프 느낌 (책자 스타일) */
+.font-serif {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 미래지향적인 느낌 */
+.font-futuristic {
+  font-family: "Orbitron", "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0a84ff;
+}
+
+/* 포인트 강조용 */
+.font-highlight {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 포인트 강조용 */
+.font-blue {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2769e6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 1. 기본 텍스트 (데이터 표, 설명) */
+.dash-text {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 2. 작은 캡션 (라벨, 단위 표시) */
+.dash-cap {
+  font-size: 11px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.2px;
+}
+
+/* 3. 주요 수치 (데이터 강조용) */
+.dash-num {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+  /* 파란색 강조 */
+}
+
+/* 4. 섹션 타이틀 (카드 헤더 등) */
+.dash-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-warr {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e63946;
+  /* 빨간색 */
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-alert {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(136, 128, 14, 0.6039215686);
+  /* 노란색 */
+}
+
+/* 노란색 계열 알림 텍스트 (주의 메시지) */
+.alert-warr {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d97706;
+  /* 진한 노랑-주황 계열 */
+  background-color: #fef9c3;
+  /* 연한 노랑 배경 */
+  border-left: 4px solid #facc15;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b91c1c;
+  /* 진한 빨강 */
+  background-color: #fee2e2;
+  /* 연한 빨강 배경 */
+  border-left: 4px solid #ef4444;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 업무 대시보드 컨테이너 */
+.con-div1 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+/* 섹션 제목 */
+.dash-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* 데이터 그리드 테이블 */
+.mx-datagrid,
+.mx-datagrid2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* 헤더 */
+.mx-datagrid2 .column-header {
+  background-color: #f8f9fb;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* 행 */
+.mx-datagrid2 td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #444;
+}
+
+/* 상태 뱃지 스타일 */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #e6f9f0;
+  color: #0f9d58;
+}
+
+.status-waiting {
+  background-color: #fff7e6;
+  color: #f4a100;
+}
+
+/* 검색창 */
+.dashboard-search {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+.dashboard-search:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+/* Main 컨테이너 */
+.con-main {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main1 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main2 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main3 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #666;
+  /* 두께와 색상 설정 */
+}
+
+.pop-font {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242525;
+  letter-spacing: 0.2px;
+}
+
+.pop-font2 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.con-div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+}
+
+.text-box {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-text {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.search-btn {
+  background-color: #4C6EF5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.new-btn {
+  background-color: #20C997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.Edit-btn {
+  background-color: #F1F3F5;
+  color: #343A40;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.delete-btn {
+  background-color: #FA5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.excel-btn {
+  background-color: #D0EBFF;
+  color: #1C7ED6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.save-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.per-btn {
+  background-color: #845ef7;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blue-btn {
+  background-color: #339af0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+org-btn {
+  background-color: #ff922b;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.red-btn {
+  background-color: #fa5252;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.gray-btn {
+  background-color: #868e96;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.can-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 8px 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customGridHeader .mx-datagrid2-header {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  font-weight: bold;
+}
+.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
+  background-color: #45a049 !important;
+}
+
+.mx-datagrid2 .column-header {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px 30px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
+}
+
+/* 세련된 기본 텍스트 */
+.font-modern {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 굵고 강조된 타이틀 */
+.font-bold-title {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* 손글씨 느낌 */
+.font-handwriting {
+  font-family: "Comic Sans MS", "Bradley Hand", cursive;
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+/* 세리프 느낌 (책자 스타일) */
+.font-serif {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 미래지향적인 느낌 */
+.font-futuristic {
+  font-family: "Orbitron", "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0a84ff;
+}
+
+/* 포인트 강조용 */
+.font-highlight {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 포인트 강조용 */
+.font-blue {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2769e6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 1. 기본 텍스트 (데이터 표, 설명) */
+.dash-text {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* 2. 작은 캡션 (라벨, 단위 표시) */
+.dash-cap {
+  font-size: 11px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.2px;
+}
+
+/* 3. 주요 수치 (데이터 강조용) */
+.dash-num {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+  /* 파란색 강조 */
+}
+
+/* 4. 섹션 타이틀 (카드 헤더 등) */
+.dash-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-warr {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e63946;
+  /* 빨간색 */
+}
+
+/* 5. 경고/주의 텍스트 */
+.dash-alert {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(136, 128, 14, 0.6039215686);
+  /* 노란색 */
+}
+
+/* 노란색 계열 알림 텍스트 (주의 메시지) */
+.alert-warr {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d97706;
+  /* 진한 노랑-주황 계열 */
+  background-color: #fef9c3;
+  /* 연한 노랑 배경 */
+  border-left: 4px solid #facc15;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 빨간색 계열 알림 텍스트 (위험/에러 메시지) */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b91c1c;
+  /* 진한 빨강 */
+  background-color: #fee2e2;
+  /* 연한 빨강 배경 */
+  border-left: 4px solid #ef4444;
+  /* 강조용 라인 */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* 업무 대시보드 컨테이너 */
+.con-div1 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+/* 섹션 제목 */
+.dash-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* 데이터 그리드 테이블 */
+.mx-datagrid,
+.mx-datagrid2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* 헤더 */
+.mx-datagrid2 .column-header {
+  background-color: #f8f9fb;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* 행 */
+.mx-datagrid2 td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #444;
+}
+
+/* 상태 뱃지 스타일 */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #e6f9f0;
+  color: #0f9d58;
+}
+
+.status-waiting {
+  background-color: #fff7e6;
+  color: #f4a100;
+}
+
+/* 검색창 */
+.dashboard-search {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+.dashboard-search:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+/* Main 컨테이너 */
+.con-main {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main1 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main2 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main3 {
+  background-color: rgba(240, 240, 240, 0.8431372549);
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #666;
+  /* 두께와 색상 설정 */
+}
+
+.pop-font {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #242525;
+  letter-spacing: 0.2px;
+}
+
+.pop-font2 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 .scheduling-date-container {
@@ -7852,6 +8140,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .con-div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -8333,6 +8653,38 @@ org-btn {
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 /* ==========================================================================
@@ -8985,6 +9337,38 @@ org-btn {
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 :root {
@@ -31521,6 +31905,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 /* ==========================================================================
    Alerts
 
@@ -32613,6 +33029,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .b-pointer {
   cursor: pointer;
 }
@@ -33313,6 +33761,38 @@ org-btn {
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 .widget-datagrid-export-alert {
@@ -35736,6 +36216,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 /* 
     ==| Widget blocks |=====================================================================================
     These blocks contains styles directly related to the widget's appearance and are mostly unique styles
@@ -36554,6 +37066,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .con-div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -37037,6 +37581,38 @@ org-btn {
   letter-spacing: 0.2px;
 }
 
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .con-div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -37518,6 +38094,38 @@ org-btn {
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+}
+
+.pop-font4 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #242525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(8, 82, 156, 0.6235294118);
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+
+.progress-indicator {
+  background: #a9d0f7;
+  height: 4px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */
