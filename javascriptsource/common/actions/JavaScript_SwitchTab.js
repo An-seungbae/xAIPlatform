@@ -14,7 +14,7 @@ import { Big } from "big.js";
 /**
  * @returns {Promise.<void>}
  */
-export async function JavaScript_SwitchTab(tabId) {
+export async function JavaScript_SwitchTab() {
 	// BEGIN USER CODE
             // 모든 탭 내용 숨김
             document.querySelectorAll('.tab-content').forEach(content => {
