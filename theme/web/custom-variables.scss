@@ -38,6 +38,8 @@ $border-color-default: #ced0d3;
 $border-radius-default: 4px;
 
 // Topbar
+
+//$topbar-bg: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
 $topbar-bg: #b6def8;
 $topbar-minimalheight: 48px;
 $topbar-border-color: $border-color-default;
@@ -165,8 +167,8 @@ $navtopbar-sub-font-size: $font-size-small;
 $navtopbar-glyph-size: 1.2em; // For glyphicons that you can select in the Mendix Modeler
 
 $navtopbar-bg: $topbar-bg;
-$navtopbar-bg-hover: mix($topbar-bg, white, 85%);
-$navtopbar-bg-active: mix($topbar-bg, white, 85%);
+$navtopbar-bg-hover: ($topbar-bg, white, 85%);
+$navtopbar-bg-active: ($topbar-bg, white, 85%);
 $navtopbar-color: #fff;
 $navtopbar-color-hover: $navtopbar-color;
 $navtopbar-color-active: $navtopbar-color;
@@ -1106,6 +1108,17 @@ $grid-header-hover: #45a049;
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+//  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -1209,12 +1222,20 @@ $grid-header-hover: #45a049;
     border-bottom: 1px solid #666; /* 두께와 색상 설정 */
 }
 
-
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: #08529c9f;
   letter-spacing: 0.2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 .pop-font1 {
   font-size: 12px;
@@ -1251,7 +1272,12 @@ $grid-header-hover: #45a049;
   letter-spacing: 0.2px;
   font-weight: bold;
 }
-
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: #5939e6e3;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
 .progress-indicator {
   background: #a9d0f7;
   height: 4px;

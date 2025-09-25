@@ -3301,6 +3301,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -3406,11 +3416,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -3449,6 +3468,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -3816,6 +3842,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -3921,11 +3957,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -3964,6 +4009,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -4331,6 +4383,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -4436,11 +4498,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -4479,6 +4550,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -4846,6 +4924,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -4951,11 +5039,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -4994,6 +5091,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -5361,6 +5465,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -5466,11 +5580,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -5509,6 +5632,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -5876,6 +6006,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -5981,11 +6121,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -6024,6 +6173,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -6391,6 +6547,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -6496,11 +6662,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -6539,6 +6714,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -6906,6 +7088,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -7011,11 +7203,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -7054,6 +7255,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -7421,6 +7629,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -7526,11 +7744,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -7569,6 +7796,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -8006,6 +8240,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -8111,11 +8355,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -8154,6 +8407,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -8521,6 +8781,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -8626,11 +8896,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -8669,6 +8948,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -9205,6 +9491,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -9310,11 +9606,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -9353,6 +9658,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -9503,14 +9815,14 @@ org-btn {
   --navtopbar-sub-font-size: 12px;
   --navtopbar-glyph-size: 1.2em;
   --navtopbar-bg: #b6def8;
-  --navtopbar-bg-hover: #c1e3f9;
-  --navtopbar-bg-active: #c1e3f9;
+  --navtopbar-bg-hover: #b6def8, white, 85%;
+  --navtopbar-bg-active: #b6def8, white, 85%;
   --navtopbar-color: #fff;
   --navtopbar-color-hover: #fff;
   --navtopbar-color-active: #fff;
   --navtopbar-sub-bg: #b6def8;
-  --navtopbar-sub-bg-hover: #c1e3f9;
-  --navtopbar-sub-bg-active: #c1e3f9;
+  --navtopbar-sub-bg-hover: #b6def8, white, 85%;
+  --navtopbar-sub-bg-active: #b6def8, white, 85%;
   --navtopbar-sub-color: #fff;
   --navtopbar-sub-color-hover: #fff;
   --navtopbar-sub-color-active: #fff;
@@ -26197,7 +26509,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active .caret {
   border-top-color: #fff;
@@ -26205,7 +26517,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu::before {
   border-color: transparent transparent #ced0d3 transparent;
@@ -26217,7 +26529,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus .caret {
   border-top-color: #fff;
@@ -26241,11 +26553,11 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:focus {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
   border-top-color: #fff;
@@ -26261,11 +26573,11 @@ img.img-scale-down,
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: #fff;
-    background-color: #c1e3f9;
+    background-color: #b6def8, white, 85%;
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
     color: #fff;
-    background-color: #c1e3f9;
+    background-color: #b6def8, white, 85%;
   }
 }
 
@@ -26508,7 +26820,7 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:hover .caret,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus .caret,
@@ -26519,7 +26831,7 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
   border-left-color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul {
   background-color: #b6def8;
@@ -26531,11 +26843,11 @@ img.img-scale-down,
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 
 .region-sidebar .mx-navigationtree {
@@ -26829,11 +27141,11 @@ ul.popupmenu-menu {
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:focus, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #c1e3f9;
+  background-color: #b6def8, white, 85%;
 }
 .region-topbar .mx-menubar-vertical {
   background-color: #b6def8;
@@ -31771,6 +32083,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -31876,11 +32198,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -31919,6 +32250,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -32895,6 +33233,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -33000,11 +33348,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -33043,6 +33400,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -33629,6 +33993,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -33734,11 +34108,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -33777,6 +34160,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -36082,6 +36472,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -36187,11 +36587,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -36230,6 +36639,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -36932,6 +37348,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -37037,11 +37463,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -37080,6 +37515,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -37447,6 +37889,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -37552,11 +38004,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -37595,6 +38056,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
@@ -37962,6 +38430,16 @@ org-btn {
   font-family: "Inter", "Noto Sans KR", sans-serif;
 }
 
+/* 업무 대시보드 컨테이너 그라데이션 컬러 적용 */
+.con-div2 {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* 섹션 제목 */
 .dash-title1 {
   font-size: 18px;
@@ -38067,11 +38545,20 @@ org-btn {
   /* 두께와 색상 설정 */
 }
 
+.pop-fontw {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fdfdfd;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pop-font {
   font-size: 11px;
   font-weight: 500;
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pop-font1 {
@@ -38110,6 +38597,13 @@ org-btn {
   color: rgba(8, 82, 156, 0.6235294118);
   letter-spacing: 0.2px;
   font-weight: bold;
+}
+
+.pop-font6 {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: bold;
+  color: rgba(89, 57, 230, 0.8901960784);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .progress-indicator {
