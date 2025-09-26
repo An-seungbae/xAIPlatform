@@ -40,13 +40,14 @@ $border-radius-default: 4px;
 // Topbar
 
 //$topbar-bg: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
-$topbar-bg: #b6def8;
+$topbar-bg: #4f46e5;
 $topbar-minimalheight: 48px;
 $topbar-border-color: $border-color-default;
 
 // Sidebar
-$sidebar-bg: #b6def8;
-$sidebar-bgs: #b6def8;
+$sidebar-bg: #4f46e5;
+$sidebar-bgs: #4f46e5;
+//$sidebar-bgs: #6A5ACD;
 // Topbar mobile
 $m-header-height: 45px;
 $m-header-bg: $topbar-bg;
@@ -872,7 +873,7 @@ transition: background-color 0.2s;
 
 
  // 오렌지
- org-btn{
+ .org-btn{
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -921,52 +922,10 @@ transition: background-color 0.2s;
 }
 
 
-$grid-header-bg: #4CAF50;
-$grid-header-color: white;
-$grid-header-hover: #45a049;
-
-.customGridHeader {
-  .mx-datagrid2-header {
-    background-color: $grid-header-bg !important;
-    color: $grid-header-color !important;
-    font-weight: bold;
-
-    .mx-datagrid2-cell:hover {
-      background-color: $grid-header-hover !important;
-    }
-  }
-}
-.mx-datagrid2 .column-header {
-    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-radius: 10px 30px 20px 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
 
 
 
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-    background: linear-gradient(180deg, 
-        #FFFFFF 0%, 
-        #F8F6F0 50%, 
-        #F0EDE5 100%
-    );
-    border-bottom: 1px solid #E0DDD6;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
-    color: #2C2C2C;
-    font-weight: 500;
-}
+
 
 
 /* 세련된 기본 텍스트 */
@@ -1140,11 +1099,29 @@ $grid-header-hover: #45a049;
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
 }
+.mx-datagrid2 .column-header:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
 
+
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+    background: linear-gradient(180deg, 
+        #FFFFFF 0%, 
+        #F8F6F0 50%, 
+        #F0EDE5 100%
+    );
+    border-bottom: 1px solid #E0DDD6;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    color: #2C2C2C;
+    font-weight: 500;
+}
 /* 행 */
 .mx-datagrid2 td {
   padding: 12px;
@@ -1211,7 +1188,14 @@ $grid-header-hover: #45a049;
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 .con-main3 {
-  background-color: #f0f0f0d7;
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+.con-main4 {
+  background-color: #587becd7;
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -1277,6 +1261,13 @@ $grid-header-hover: #45a049;
   font-weight: bold;
   color: #5939e6e3;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 .progress-indicator {
   background: #a9d0f7;

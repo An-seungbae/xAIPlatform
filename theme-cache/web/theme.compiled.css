@@ -3075,7 +3075,7 @@
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -3117,41 +3117,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -3332,9 +3297,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -3404,7 +3383,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -3475,6 +3462,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -3616,7 +3610,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -3658,41 +3652,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -3873,9 +3832,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -3945,7 +3918,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -4016,6 +3997,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -4157,7 +4145,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -4199,41 +4187,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -4414,9 +4367,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -4486,7 +4453,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -4557,6 +4532,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -4698,7 +4680,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -4740,41 +4722,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -4955,9 +4902,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -5027,7 +4988,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -5098,6 +5067,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -5239,7 +5215,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -5281,41 +5257,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -5496,9 +5437,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -5568,7 +5523,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -5639,6 +5602,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -5780,7 +5750,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -5822,41 +5792,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -6037,9 +5972,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -6109,7 +6058,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -6180,6 +6137,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -6321,7 +6285,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -6363,41 +6327,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -6578,9 +6507,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -6650,7 +6593,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -6721,6 +6672,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -6862,7 +6820,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -6904,41 +6862,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -7119,9 +7042,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -7191,7 +7128,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -7262,6 +7207,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -7403,7 +7355,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -7445,41 +7397,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -7660,9 +7577,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -7732,7 +7663,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -7803,6 +7742,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -8014,7 +7960,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -8056,41 +8002,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -8271,9 +8182,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -8343,7 +8268,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -8414,6 +8347,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -8555,7 +8495,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -8597,41 +8537,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -8812,9 +8717,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -8884,7 +8803,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -8955,6 +8882,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -9265,7 +9199,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -9307,41 +9241,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -9522,9 +9421,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -9594,7 +9507,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -9667,6 +9588,13 @@ org-btn {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
+}
+
 .progress-indicator {
   background: #a9d0f7;
   height: 4px;
@@ -9725,12 +9653,12 @@ org-btn {
   --border-color-default: #ced0d3;
   --border-radius-default: 4px;
   /* Topbar */
-  --topbar-bg: #b6def8;
+  --topbar-bg: #4f46e5;
   --topbar-minimalheight: 48px;
   --topbar-border-color: #ced0d3;
   /* Topbar mobile */
   --m-header-height: 45px;
-  --m-header-bg: #b6def8;
+  --m-header-bg: #4f46e5;
   --m-header-color: #fff;
   --m-header-title-size: 16px;
   /* Navbar Brand Name / For your company, product, or project name (used in layouts/base/) */
@@ -9814,15 +9742,15 @@ org-btn {
   --navtopbar-font-size: 14px;
   --navtopbar-sub-font-size: 12px;
   --navtopbar-glyph-size: 1.2em;
-  --navtopbar-bg: #b6def8;
-  --navtopbar-bg-hover: #b6def8, white, 85%;
-  --navtopbar-bg-active: #b6def8, white, 85%;
+  --navtopbar-bg: #4f46e5;
+  --navtopbar-bg-hover: #4f46e5, white, 85%;
+  --navtopbar-bg-active: #4f46e5, white, 85%;
   --navtopbar-color: #fff;
   --navtopbar-color-hover: #fff;
   --navtopbar-color-active: #fff;
-  --navtopbar-sub-bg: #b6def8;
-  --navtopbar-sub-bg-hover: #b6def8, white, 85%;
-  --navtopbar-sub-bg-active: #b6def8, white, 85%;
+  --navtopbar-sub-bg: #4f46e5;
+  --navtopbar-sub-bg-hover: #4f46e5, white, 85%;
+  --navtopbar-sub-bg-active: #4f46e5, white, 85%;
   --navtopbar-sub-color: #fff;
   --navtopbar-sub-color-hover: #fff;
   --navtopbar-sub-color-active: #fff;
@@ -10212,7 +10140,7 @@ org-btn {
   --brand-info: #0086d9;
   /*== Step 2: UI Customization */
   /* Sidebar */
-  --sidebar-bg: #b6def8;
+  --sidebar-bg: #4f46e5;
   /*== Navigation */
   /*## Used in components/navigation */
   /* Default Navigation styling */
@@ -10224,13 +10152,13 @@ org-btn {
   --navigation-sub-bg-active: #1f215d;
   --navigation-border-color: #292d7b;
   /* Navigation Sidebar */
-  --navsidebar-bg: #b6def8;
-  --navsidebar-bg-hover: #87c9f4;
-  --navsidebar-bg-active: #87c9f4;
-  --navsidebar-sub-bg: #87c9f4;
-  --navsidebar-sub-bg-hover: #b6def8;
-  --navsidebar-sub-bg-active: #b6def8;
-  --navsidebar-border-color: #87c9f4;
+  --navsidebar-bg: #4f46e5;
+  --navsidebar-bg-hover: #291fd9;
+  --navsidebar-bg-active: #291fd9;
+  --navsidebar-sub-bg: #291fd9;
+  --navsidebar-sub-bg-hover: #4f46e5;
+  --navsidebar-sub-bg-active: #4f46e5;
+  --navsidebar-border-color: #291fd9;
   /*== Form */
   /*## Used in components/inputs */
   /* Form Label */
@@ -25548,7 +25476,7 @@ input[type=checkbox] + .control-label {
   padding: 0;
   text-align: initial;
   color: #fff;
-  background-color: #b6def8;
+  background-color: #4f46e5;
   box-shadow: 0px 2px 2px rgba(194, 196, 201, 0.30354);
 }
 .mx-header div.mx-header-left,
@@ -26486,7 +26414,7 @@ img.img-scale-down,
 //## Behavior in the different regions
 ========================================================================== */
 .region-topbar .mx-navbar {
-  background-color: #b6def8;
+  background-color: #4f46e5;
   min-height: auto;
 }
 .region-topbar .mx-navbar ul.nav {
@@ -26509,7 +26437,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active .caret {
   border-top-color: #fff;
@@ -26517,7 +26445,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu::before {
   border-color: transparent transparent #ced0d3 transparent;
@@ -26529,7 +26457,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item > a:focus .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.active a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover .caret, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus .caret {
   border-top-color: #fff;
@@ -26537,7 +26465,7 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu {
   border-radius: 4px;
-  background-color: #b6def8;
+  background-color: #4f46e5;
   padding: 8px 8px 0;
   margin: 0;
   border: 0;
@@ -26553,11 +26481,11 @@ img.img-scale-down,
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:hover, .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem a:focus {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
   border-top-color: #fff;
@@ -26565,7 +26493,7 @@ img.img-scale-down,
 }
 @media (max-width: 768px) {
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu {
-    background-color: #b6def8;
+    background-color: #4f46e5;
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a {
     color: #fff;
@@ -26573,16 +26501,16 @@ img.img-scale-down,
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: #fff;
-    background-color: #b6def8, white, 85%;
+    background-color: #4f46e5, white, 85%;
   }
   .region-topbar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
     color: #fff;
-    background-color: #b6def8, white, 85%;
+    background-color: #4f46e5, white, 85%;
   }
 }
 
 .region-sidebar .mx-navbar {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-sidebar .mx-navbar ul.nav {
   /* Navigation item */
@@ -26600,7 +26528,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:hover .caret, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a:focus .caret, .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active .caret {
   border-top-color: #fff;
@@ -26608,10 +26536,10 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu::before {
-  border-color: transparent transparent #87c9f4 transparent;
+  border-color: transparent transparent #291fd9 transparent;
 }
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .glyphicon,
 .region-sidebar .mx-navbar ul.nav > li.mx-navbar-item > a .mx-icon-lined,
@@ -26620,7 +26548,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:hover, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:focus, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.active a, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:hover .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item > a:focus .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.active a .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:hover .caret, .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open > a:focus .caret {
   border-top-color: #fff;
@@ -26628,7 +26556,7 @@ img.img-scale-down,
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   color: #fff;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-sidebar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
   border-top-color: #fff;
@@ -26636,7 +26564,7 @@ img.img-scale-down,
 }
 @media (max-width: 768px) {
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu {
-    background-color: #b6def8;
+    background-color: #4f46e5;
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a {
     color: #fff;
@@ -26644,11 +26572,11 @@ img.img-scale-down,
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: #fff;
-    background-color: #b6def8;
+    background-color: #4f46e5;
   }
   .region-sidebar .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
     color: #fff;
-    background-color: #b6def8;
+    background-color: #4f46e5;
   }
 }
 
@@ -26798,13 +26726,13 @@ img.img-scale-down,
 //## Behavior in the different regions
 ========================================================================== */
 .region-topbar .mx-navigationtree {
-  background-color: #b6def8;
+  background-color: #4f46e5;
   /* Sub navigation item specific */
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li > a {
   color: #fff;
   border-color: #ced0d3;
-  background-color: #b6def8;
+  background-color: #4f46e5;
   font-size: 14px;
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li > a .caret {
@@ -26820,7 +26748,7 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:hover .caret,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a:focus .caret,
@@ -26831,33 +26759,33 @@ img.img-scale-down,
 .region-topbar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
   border-left-color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
   color: #fff;
-  background-color: #b6def8;
+  background-color: #4f46e5;
   font-size: 12px;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 
 .region-sidebar .mx-navigationtree {
-  background-color: #b6def8;
+  background-color: #4f46e5;
   /* Sub navigation item specific */
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a {
   color: #fff;
-  border-color: #87c9f4;
-  background-color: #b6def8;
+  border-color: #291fd9;
+  background-color: #4f46e5;
   font-size: 14px;
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .caret {
@@ -26873,7 +26801,7 @@ img.img-scale-down,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:focus,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:hover .caret,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a:focus .caret,
@@ -26884,23 +26812,23 @@ img.img-scale-down,
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li a.active {
   color: #fff;
   border-left-color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul {
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
   font-size: 12px;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: #fff;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 
 .nav-content-center-text-icons.mx-navigationtree .navbar-inner ul a {
@@ -27127,7 +27055,7 @@ ul.popupmenu-menu {
 }
 
 .region-topbar .mx-menubar {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   color: #fff;
@@ -27141,14 +27069,14 @@ ul.popupmenu-menu {
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:focus, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #b6def8, white, 85%;
+  background-color: #4f46e5, white, 85%;
 }
 .region-topbar .mx-menubar-vertical {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-topbar .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
   height: unset;
@@ -27156,7 +27084,7 @@ ul.popupmenu-menu {
 }
 
 .region-sidebar .mx-menubar {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   color: #fff;
@@ -27170,17 +27098,17 @@ ul.popupmenu-menu {
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:focus, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   color: #fff;
-  background-color: #87c9f4;
+  background-color: #291fd9;
 }
 .region-sidebar .mx-menubar-vertical {
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .region-sidebar .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
-  border-color: #87c9f4;
+  border-color: #291fd9;
 }
 
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
@@ -31411,7 +31339,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   transform: rotate(180deg);
 }
 .layout-atlas .region-sidebar {
-  background-color: #b6def8;
+  background-color: #4f46e5;
   z-index: 101;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 2px 4px 8px rgba(0, 0, 0, 0.28);
 }
@@ -31429,7 +31357,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   margin-right: 8px;
 }
 .layout-atlas .region-sidebar .sidebar-heading {
-  background: #87c9f4;
+  background: #291fd9;
 }
 .layout-atlas .region-sidebar .toggle-btn {
   margin-right: 8px;
@@ -31442,7 +31370,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   position: relative;
   z-index: 60;
   min-height: 48px;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .layout-atlas .region-topbar .topbar-content {
   display: flex;
@@ -31502,7 +31430,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 .layout-atlas-phone .region-topbar {
   min-height: 45px;
   border-style: none;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .layout-atlas-phone .region-topbar::before {
   display: none;
@@ -31635,7 +31563,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   padding: 8px;
   align-items: center;
   min-height: calc(48px + 4px);
-  background: #87c9f4;
+  background: #291fd9;
 }
 .layout-atlas-responsive .region-sidebar .mx-scrollcontainer-wrapper .toggle-btn,
 .layout-atlas-responsive-default .region-sidebar .mx-scrollcontainer-wrapper .toggle-btn {
@@ -31723,7 +31651,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 .layout-atlas-tablet .region-topbar {
   min-height: 45px;
   border-style: none;
-  background-color: #b6def8;
+  background-color: #4f46e5;
 }
 .layout-atlas-tablet .region-topbar::before {
   display: none;
@@ -31857,7 +31785,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -31899,41 +31827,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -32114,9 +32007,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -32186,7 +32093,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -32257,6 +32172,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -33007,7 +32929,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -33049,41 +32971,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -33264,9 +33151,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -33336,7 +33237,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -33407,6 +33316,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -33767,7 +33683,7 @@ body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -33809,41 +33725,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -34024,9 +33905,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -34096,7 +33991,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -34167,6 +34070,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -36246,7 +36156,7 @@ input[type=checkbox].three-state-checkbox + .control-label {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -36288,41 +36198,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -36503,9 +36378,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -36575,7 +36464,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -36646,6 +36543,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -37122,7 +37026,7 @@ Do not render = "none"
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -37164,41 +37068,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -37379,9 +37248,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -37451,7 +37334,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -37522,6 +37413,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -37663,7 +37561,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -37705,41 +37603,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -37920,9 +37783,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -37992,7 +37869,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -38063,6 +37948,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
@@ -38204,7 +38096,7 @@ org-btn {
   transition: background-color 0.2s;
 }
 
-org-btn {
+.org-btn {
   background-color: #ff922b;
   color: white;
   padding: 8px 20px;
@@ -38246,41 +38138,6 @@ org-btn {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.customGridHeader .mx-datagrid2-header {
-  background-color: #4CAF50 !important;
-  color: white !important;
-  font-weight: bold;
-}
-.customGridHeader .mx-datagrid2-header .mx-datagrid2-cell:hover {
-  background-color: #45a049 !important;
-}
-
-.mx-datagrid2 .column-header {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 10px 30px 20px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.mx-datagrid2 .column-header:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* 헤더에 진주 광택 효과 */
-.mx-datagrid2 .column-header {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
-  border-bottom: 1px solid #E0DDD6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #2C2C2C;
-  font-weight: 500;
 }
 
 /* 세련된 기본 텍스트 */
@@ -38461,9 +38318,23 @@ org-btn {
   background-color: #f8f9fb;
   color: #333;
   font-weight: 600;
-  text-align: left;
-  padding: 12px;
+  text-align: center;
+  padding: 10px;
   border-bottom: 2px solid #e5e7eb;
+}
+
+.mx-datagrid2 .column-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 헤더에 진주 광택 효과 */
+.mx-datagrid2 .column-header {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F0 50%, #F0EDE5 100%);
+  border-bottom: 1px solid #E0DDD6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #2C2C2C;
+  font-weight: 500;
 }
 
 /* 행 */
@@ -38533,7 +38404,15 @@ org-btn {
 }
 
 .con-main3 {
-  background-color: rgba(240, 240, 240, 0.8431372549);
+  background-color: #f8fafc;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+}
+
+.con-main4 {
+  background-color: rgba(88, 123, 236, 0.8431372549);
   border-radius: 3px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   padding: 2px;
@@ -38604,6 +38483,13 @@ org-btn {
   font-weight: bold;
   color: rgba(89, 57, 230, 0.8901960784);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pop-font7 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 0.2px;
 }
 
 .progress-indicator {
