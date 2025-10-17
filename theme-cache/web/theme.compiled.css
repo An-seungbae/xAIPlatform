@@ -3411,6 +3411,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -3500,6 +3505,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -3961,6 +3976,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -4050,6 +4070,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -4511,6 +4541,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -4600,6 +4635,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -5061,6 +5106,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -5150,6 +5200,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -5611,6 +5671,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -5700,6 +5765,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -6161,6 +6236,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -6250,6 +6330,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -6711,6 +6801,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -6800,6 +6895,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -7261,6 +7366,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -7350,6 +7460,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -7811,6 +7931,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -7900,6 +8025,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -8361,6 +8496,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -8450,6 +8590,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -8911,6 +9061,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -9000,6 +9155,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -9461,6 +9626,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -9550,6 +9720,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .scheduling-date-container {
@@ -10081,6 +10261,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -10170,6 +10355,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -10631,6 +10826,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -10720,6 +10920,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 /* ==========================================================================
@@ -11350,6 +11560,11 @@
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -11439,6 +11654,16 @@
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 :root {
@@ -33951,6 +34176,11 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -34040,6 +34270,16 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 /* ==========================================================================
@@ -35110,6 +35350,11 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -35199,6 +35444,16 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .b-pointer {
@@ -35879,6 +36134,11 @@ body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -35968,6 +36228,16 @@ body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .widget-datagrid-export-alert {
@@ -38367,6 +38637,11 @@ input[type=checkbox].three-state-checkbox + .control-label {
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -38456,6 +38731,16 @@ input[type=checkbox].three-state-checkbox + .control-label {
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 /* 
@@ -39252,6 +39537,11 @@ Do not render = "none"
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -39341,6 +39631,16 @@ Do not render = "none"
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -39802,6 +40102,11 @@ Do not render = "none"
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -39891,6 +40196,16 @@ Do not render = "none"
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 .con-div {
@@ -40352,6 +40667,11 @@ Do not render = "none"
   /* 두께와 색상 설정 */
 }
 
+.bottom-line1 {
+  border-bottom: 0.5px solid rgb(156, 154, 154);
+  /* 두께와 색상 설정 */
+}
+
 .pop-fontw {
   font-size: 11px;
   font-weight: 500;
@@ -40441,6 +40761,16 @@ Do not render = "none"
   width: 20%;
   border-radius: 2px;
   transition: width 0.3s ease;
+}
+
+.mx-checkbox .mx-checkbox-input {
+  margin-right: 5px;
+  float: left;
+}
+
+.mx-checkbox .mx-checkbox-label {
+  display: inline-block;
+  text-align: left;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */
