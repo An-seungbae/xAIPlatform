@@ -3119,6 +3119,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -3661,6 +3683,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -3830,6 +3921,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -4372,6 +4485,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -4541,6 +4723,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -5083,6 +5287,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -5252,6 +5525,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -5794,6 +6089,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -5963,6 +6327,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -6505,6 +6891,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -6674,6 +7129,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -7216,6 +7693,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -7385,6 +7931,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -7927,6 +8495,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -8096,6 +8733,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -8638,6 +9297,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -8807,6 +9535,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -9349,6 +10099,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -9518,6 +10337,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -10060,6 +10901,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -10229,6 +11139,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -10771,6 +11703,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -10940,6 +11941,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -11482,6 +12505,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .scheduling-date-container {
@@ -11721,6 +12813,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -12263,6 +13377,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -12432,6 +13615,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -12974,6 +14179,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 /* ==========================================================================
@@ -13312,6 +14586,28 @@
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -13854,6 +15150,75 @@
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 :root {
@@ -36074,6 +37439,28 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -36616,6 +38003,75 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 /* ==========================================================================
@@ -37394,6 +38850,28 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -37936,6 +39414,75 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .b-pointer {
@@ -38324,6 +39871,28 @@ body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -38866,6 +40435,75 @@ body.b-theme-classic-dark i.b-tree-expander.b-empty-parent:before {
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .widget-datagrid-export-alert {
@@ -40973,6 +42611,28 @@ input[type=checkbox].three-state-checkbox + .control-label {
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -41515,6 +43175,75 @@ input[type=checkbox].three-state-checkbox + .control-label {
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 /* 
@@ -42019,6 +43748,28 @@ Do not render = "none"
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -42561,6 +44312,75 @@ Do not render = "none"
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -42730,6 +44550,28 @@ Do not render = "none"
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -43272,6 +45114,75 @@ Do not render = "none"
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -43441,6 +45352,28 @@ Do not render = "none"
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -43983,6 +45916,75 @@ Do not render = "none"
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 .con-div {
@@ -44152,6 +46154,28 @@ Do not render = "none"
   transition: background-color 0.2s;
 }
 
+.cans-btn {
+  background-color: #f1f3f5;
+  color: #343a40;
+  padding: 5px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saves-btn {
+  background-color: #38d9a9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
 /* 세련된 기본 텍스트 */
 .font-modern {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -44694,6 +46718,75 @@ Do not render = "none"
   background: #0b0d12;
   border-color: rgba(255, 255, 255, 0.08);
   color: #e5e7eb;
+}
+
+/* 폼의 Boolean(체크박스) 줄에서 offset 제거해서 왼쪽으로 붙이기 */
+.form-group.mx-checkbox .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 라디오 버튼도 같은 문제 있으면 같이 처리 */
+.form-group.mx-radiobuttons .col-sm-offset-3 {
+  margin-left: 0 !important;
+}
+
+/* 체크박스+라벨 한 줄로 왼쪽 정렬 */
+.form-group.mx-checkbox .col-sm-9 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 강제 왼쪽 정렬용 클래스 */
+.checkbox-left-force,
+.checkbox-left-force .form-group,
+.checkbox-left-force .mx-checkbox,
+.checkbox-left-force .control.checkbox,
+.checkbox-left-force .mx-checkbox.label-after,
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 라벨 flex 영향 제거 */
+.checkbox-left-force .mx-checkbox.label-after .control-label {
+  display: inline-flex !important;
+  margin-left: 0px !important;
+  /* 필요 시 0으로 변경 */
+  padding: 0 !important;
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force[class*=offset-],
+.checkbox-left-force[class*=spacing-],
+.checkbox-left-force .form-group[class*=offset-],
+.checkbox-left-force .form-group[class*=spacing-] {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 모달 헤더 배경 + 글자색 변경 */
+.mx-window .mx-window-header {
+  background-color: #4f46e5 !important;
+  /* 원하는 색 */
+}
+
+/* 헤더 안에 있는 모든 텍스트를 강제로 흰색으로 */
+.mx-window .mx-window-header,
+.mx-window .mx-window-header * {
+  color: rgba(255, 255, 255, 0.8078431373) !important;
+  font-weight: 600;
+}
+
+/* 타이틀은 폰트 크기만 별도로 조정 */
+.mx-window .mx-window-header h4,
+.mx-window .mx-window-header span,
+.mx-window .mx-window-header label {
+  font-size: 18px !important;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */
