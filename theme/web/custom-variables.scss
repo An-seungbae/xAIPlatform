@@ -738,13 +738,31 @@ $callout-info-bg: $color-info-lighter;
 }
 
 
-// 데이터 그리드 박스
-.grid-box{
- background-color: white;
-border-radius: 12px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-padding: 12px;   
+/* 데이터 그리드 박스 공통 스타일 */
+.grid-box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 12px;
 }
+
+/* ✅ DataGrid 1: 5줄(row) 만큼만 높이 고정 + 스크롤 */
+.grid-box .mx-grid-content,
+.grid-box .mx-datagrid-content {
+    /* 한 줄을 대략 40px로 보고 5줄 = 200px 정도 */
+    height: 200px !important;      /* 5줄 높이 고정 */
+    max-height: 200px !important;  /* 혹시 모를 override 방지 */
+    overflow-y: auto !important;   /* 넘치면 세로 스크롤 */
+}
+
+/* 행(row) 자체 높이도 어느 정도 맞추기 (옵션) */
+.grid-box .mx-datagrid-body table > tbody > tr > td {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    line-height: 1.2 !important;
+}
+
+
 
 // 입력 박스 스타일
 .text-box{
@@ -1482,6 +1500,44 @@ transition: background-color 0.2s;
     margin-left: 0 !important;
     padding-left: 0 !important;
 }
+
+
+/* 강제 왼쪽 정렬 + 텍스트 작은 버전 + 강력한 override */
+.checkbox-left-force2,
+.checkbox-left-force2 .form-group,
+.checkbox-left-force2 .mx-checkbox,
+.checkbox-left-force2 .control.checkbox,
+.checkbox-left-force2 .mx-checkbox.label-after,
+.checkbox-left-force2 .mx-checkbox.label-after .control-label {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* 체크박스 텍스트 강제 14px + 진한 그레이 */
+.checkbox-left-force2 .mx-checkbox.label-after .control-label,
+.checkbox-left-force2 .mx-checkbox .control-label,
+.checkbox-left-force2 label.control-label,
+.checkbox-left-force2 .mx-checkbox label,
+.checkbox-left-force2 .form-group label {
+    font-size: 12px !important;   /* 강제 작은 폰트 */
+    color: #333 !important;       /* 진한 그레이 */
+    line-height: 1.2 !important;
+    margin-left: 4px !important;  /* 라벨과 체크박스 간격 */
+}
+
+/* Bootstrap / Atlas offset, spacing 영향 제거 */
+.checkbox-left-force2[class*="offset-"],
+.checkbox-left-force2[class*="spacing-"],
+.checkbox-left-force2 .form-group[class*="offset-"],
+.checkbox-left-force2 .form-group[class*="spacing-"] {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
 
 
 /* 모달 헤더 배경 + 글자색 변경 */

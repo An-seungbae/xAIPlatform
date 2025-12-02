@@ -228,7 +228,6 @@ public class StringUtils {
 	}
 
 	public static String stringFromInputStream(InputStream inputStream, Charset charset) throws IOException {
-	  //	return IOUtils.toString(BOMInputStream.builder().setInputStream(inputStream).get(), charset);
 		return IOUtils.toString(new BOMInputStream(inputStream), charset);
 	}
 
