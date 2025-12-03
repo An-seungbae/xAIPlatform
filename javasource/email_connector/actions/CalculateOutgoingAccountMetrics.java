@@ -13,7 +13,6 @@ import com.mendix.core.Core;
 import com.mendix.core.CoreException;
 import com.mendix.datahub.connector.eventtracking.Metrics;
 import com.mendix.systemwideinterfaces.core.IContext;
-import com.mendix.webui.CustomJavaAction;
 import email_connector.proxies.ENUM_OAuthType;
 import email_connector.proxies.ENUM_OutgoingProtocol;
 import email_connector.proxies.EmailAccount;

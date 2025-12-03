@@ -10,7 +10,6 @@
 package email_connector.actions;
 
 import com.mendix.systemwideinterfaces.core.IContext;
-import com.mendix.webui.CustomJavaAction;
 import java.util.Base64;
 import com.mendix.systemwideinterfaces.core.UserAction;
 

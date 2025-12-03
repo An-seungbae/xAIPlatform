@@ -14,7 +14,6 @@ import com.mendix.core.CoreException;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.IMendixIdentifier;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
-import com.mendix.webui.CustomJavaAction;
 import email_connector.proxies.EmailTemplate;
 import email_connector.proxies.constants.Constants;
 import mxmodelreflection.proxies.MxObjectMember;
