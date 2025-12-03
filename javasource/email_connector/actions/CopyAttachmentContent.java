@@ -12,6 +12,7 @@ package email_connector.actions;
 import com.mendix.core.Core;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.webui.CustomJavaAction;
 import java.io.InputStream;
 import com.mendix.systemwideinterfaces.core.UserAction;
 

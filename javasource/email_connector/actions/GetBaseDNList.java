@@ -15,6 +15,7 @@ import com.mendix.datahub.connector.email.utils.Error;
 import com.mendix.datahub.connector.email.utils.LDAPHelper;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.webui.CustomJavaAction;
 import email_connector.proxies.LDAPBaseDN;
 import encryption.proxies.microflows.Microflows;
 import java.util.ArrayList;

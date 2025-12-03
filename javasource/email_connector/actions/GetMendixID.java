@@ -11,6 +11,7 @@ package email_connector.actions;
 
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.webui.CustomJavaAction;
 import com.mendix.systemwideinterfaces.core.UserAction;
 
 public class GetMendixID extends UserAction<java.lang.Long>

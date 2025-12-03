@@ -14,6 +14,7 @@ import com.mendix.datahub.connector.email.utils.EmailConnectorException;
 import com.mendix.datahub.connector.email.utils.Error;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.webui.CustomJavaAction;
 import email_connector.implementation.MxMailMapper;
 import com.mendix.systemwideinterfaces.core.UserAction;
 
